@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.4.18" name="Ker0n3 Flix" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.4.19" name="Ker0n3 Flix" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -23,12 +23,22 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			</assets>
-		<summary lang="es_ES">Palantir Flix: interfaz tipo Netflix para Palantir 3 (fork de Estuary Palantir).</summary>
-		<summary lang="en_GB">Palantir Flix: Netflix-style interface for Palantir 3 (fork of Estuary Palantir).</summary>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="es_ES">Ker0n3 Flix: interfaz tipo Netflix para Palantir 3 en la TV (Shield, Fire TV, Android TV).</summary>
+		<summary lang="en_GB">Ker0n3 Flix: Netflix-style TV interface for Palantir 3 (Shield, Fire TV, Android TV).</summary>
+		<description lang="es_ES">Skin para mando a distancia: Inicio con portada y filas (Top 10, Seguir viendo, Novedades, plataformas…), buscador con teclado en pantalla, voz y teclado físico, fichas de series con temporadas y capítulos, selector de calidad con reproducción automática y menú para marcar visto / no visto que llega a Trakt. Requiere el addon Palantir 3. Se actualiza solo desde el repositorio Ker0n3 Media.</description>
+		<description lang="en_GB">Remote-friendly skin: home with hero and rows (Top 10, Continue watching, New, streaming services…), search with on-screen keyboard, voice and physical keyboard, series pages with seasons and episodes, quality picker with autoplay and a watched / unwatched menu synced to Trakt. Requires the Palantir 3 add-on. Updates itself from the Ker0n3 Media repository.</description>
+		<news>1.4.19: icono, capturas y descripción en el repositorio.
+1.4.18: actualizaciones automáticas desde GitHub (repositorio Ker0n3 Media).
+1.4.17: el buscador encuentra títulos parecidos ("interestelar" → Interstellar).
+1.4.16: el buscador acepta teclado físico (USB / Bluetooth).
+1.4.15: menú al mantener OK también en series, temporadas y capítulos.</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.0.36" name="Ker0n3 Flix Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.0.37" name="Ker0n3 Flix Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -49,9 +59,18 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			</assets>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
 		<summary lang="es_ES">Ker0n3 Flix para móvil y tablet: interfaz táctil tipo Netflix para Palantir 3.</summary>
 		<summary lang="en_GB">Ker0n3 Flix for phones and tablets: Netflix-style touch UI for Palantir 3.</summary>
+		<description lang="es_ES">Skin táctil para móvil y tablet: Inicio con portada deslizable y filas (Top 10, Seguir viendo, Novedades, plataformas…), fichas de película con Ver / Seguir viendo / Desde el principio, series con temporadas y capítulos, buscador con teclado propio y voz y resultados al momento. Requiere el addon Palantir 3. Se actualiza solo desde el repositorio Ker0n3 Media.</description>
+		<description lang="en_GB">Touch skin for phones and tablets: home with swipeable hero and rows (Top 10, Continue watching, New, streaming services…), movie pages with Play / Resume / From the start, series with seasons and episodes, search with its own keyboard, voice and live results. Requires the Palantir 3 add-on. Updates itself from the Ker0n3 Media repository.</description>
+		<news>1.0.37: icono, capturas y descripción en el repositorio.
+1.0.36: actualizaciones automáticas desde GitHub (repositorio Ker0n3 Media).
+1.0.35: el buscador encuentra títulos parecidos ("interestelar" → Interstellar).
+1.0.34: ficha de película al tocar (Ver / Seguir viendo / Desde el principio).</news>
 	</extension>
 </addon>
 <addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.0" provider-name="Ker0n3">
