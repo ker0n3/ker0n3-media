@@ -70,12 +70,12 @@
 1.0.35: el buscador encuentra títulos parecidos.</news>
 	</extension>
 </addon>
-<addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.2" provider-name="Ker0n3">
+<addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.3" provider-name="Ker0n3">
 	<extension point="xbmc.addon.repository" name="Ker0n3 Media">
 		<dir>
-			<info compressed="false">https://ker0n3.github.io/ker0n3-media/addons.xml</info>
-			<checksum>https://ker0n3.github.io/ker0n3-media/addons.xml.md5</checksum>
-			<datadir zip="true">https://ker0n3.github.io/ker0n3-media/zips/</datadir>
+			<info compressed="false">https://ker0n3-media.ker0n3.workers.dev/addons.xml</info>
+			<checksum>https://ker0n3-media.ker0n3.workers.dev/addons.xml.md5</checksum>
+			<datadir zip="true">https://ker0n3-media.ker0n3.workers.dev/zips/</datadir>
 			<hashes>false</hashes>
 		</dir>
 	</extension>
