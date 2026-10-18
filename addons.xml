@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.4.30" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.4.32" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,9 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.4.30: letra correcta en la segunda línea de los avisos y en el teclado numérico; arreglos internos.
+		<news>1.4.32: tarjeta «Ver más» al final de las filas del Inicio y de la rejilla (antes, un icono de cámara).
+1.4.31: «Atrás para volver» del menú de apagar más legible; animaciones de los menús iguales; limpieza interna.
+1.4.30: letra correcta en la segunda línea de los avisos y en el teclado numérico; arreglos internos.
 1.4.29: el aviso de siguiente capítulo sale a 75 s del final (antes 40 s), a tiempo para los créditos.
 1.4.28: el aviso de siguiente capítulo sale también cuando Palantir reproduce sin preguntar la versión.
 1.4.27: el aviso «Cargando AllDebrid» ya no sale tampoco al empezar un capítulo (rueda de carga en su lugar); el historial del buscador guarda títulos con coma.
@@ -44,7 +46,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.0.48" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.0.50" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -70,7 +72,9 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.0.48: letra correcta en la segunda línea de los avisos y en el teclado numérico; arreglos internos.
+		<news>1.0.50: mismos arreglos que la TV 1.4.32.
+1.0.49: «Atrás para volver» del menú de apagar más legible; animaciones de los menús iguales; arranque algo más ligero; limpieza interna.
+1.0.48: letra correcta en la segunda línea de los avisos y en el teclado numérico; arreglos internos.
 1.0.47: el aviso de siguiente capítulo sale a 75 s del final (antes 40 s), a tiempo para los créditos.
 1.0.46: el aviso de siguiente capítulo sale también cuando Palantir reproduce sin preguntar la versión; sin aviso «Cargando AllDebrid» al empezar un capítulo; el historial del buscador guarda títulos con coma; caché del Inicio más segura.
 1.0.45: arreglos internos de navegación compartidos con la versión de TV.
