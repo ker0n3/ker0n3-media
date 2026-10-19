@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.9" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.10" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.9: «Quitar progreso / dejar de seguir»; Kodi ya no pregunta su propio «Reanudar desde…» al ver desde el principio.
+		<news>1.5.10: «Dejar de seguir la serie» funciona: se ve la pregunta de Palantir (solo aquí / en ningún dispositivo).
+1.5.9: «Quitar progreso / dejar de seguir»; Kodi ya no pregunta su propio «Reanudar desde…» al ver desde el principio.
 1.5.8: el menú espera a Palantir si está ocupado (antes «aún no está lista»); «Quitar progreso» borra también el «Reanudar desde…» de Kodi.
 1.5.7: carátulas con estado (✓ verde vista, ▶ rojo empezada, aro blanco) y «Valorar en Trakt» en el menú de película y serie.
 1.5.6: los círculos de estado de las carátulas llevan aro blanco para que se vean sobre cualquier póster.
