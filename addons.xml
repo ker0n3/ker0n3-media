@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.3" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.7" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,11 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.3: el Inicio sale al momento aunque haga horas que no abres Kodi; al abrir una serie, pantalla de carga con su fondo y logo; aviso diario anónimo para las estadísticas.
+		<news>1.5.7: carátulas con estado (✓ verde vista, ▶ rojo empezada, aro blanco) y «Valorar en Trakt» en el menú de película y serie.
+1.5.6: los círculos de estado de las carátulas llevan aro blanco para que se vean sobre cualquier póster.
+1.5.5: estado más visible en las carátulas: vista = círculo verde con ✓; empezada = círculo rojo con ▶ además de la barra.
+1.5.4: marca ✓ en las carátulas de lo ya visto (películas, series, temporadas y capítulos); en la TV, menú con «Añadir a mi lista…» y «Valorar en Trakt».
+1.5.3: el Inicio sale al momento aunque haga horas que no abres Kodi; al abrir una serie, pantalla de carga con su fondo y logo; aviso diario anónimo para las estadísticas.
 1.5.2: ajustes de subtítulos, vídeo y audio e Info del reproductor con el diseño Ker0n3; la Info se cierra con una X en el móvil.
 1.5.1: al salir de una peli con el Atrás del móvil se vuelve bien al Inicio (antes podía quedarse en negro «Cargando» tras varios Atrás).
 1.5.0: versión nueva: reproducción automática por orden de calidades (Ajustes → Prioridad de reproducción), aviso de vincular AllDebrid, rueda de carga única y al hacer buffer, listas de subtítulos/audio, salir para la reproducción y arreglo de pelis que no abrían.
