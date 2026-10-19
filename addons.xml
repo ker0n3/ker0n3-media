@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.4.39" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.1" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,18 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.4.39: los textos de Palantir (títulos de capítulos, menús) salen siempre en blanco: la skin desactiva los colores de Palantir.
+		<news>1.5.1: al salir de una peli con el Atrás del móvil se vuelve bien al Inicio (antes podía quedarse en negro «Cargando» tras varios Atrás).
+1.5.0: versión nueva: reproducción automática por orden de calidades (Ajustes → Prioridad de reproducción), aviso de vincular AllDebrid, rueda de carga única y al hacer buffer, listas de subtítulos/audio, salir para la reproducción y arreglo de pelis que no abrían.
+1.4.55: Personalizar el Inicio: interruptor por fila y botón «Activar / desactivar», igual que Prioridad de reproducción.
+1.4.54: Ajustes → Prioridad de reproducción: reproducción automática sí/no, orden de calidades (4K, DV, HDR10, HDR10+, 1080p, 720p, resto) con interruptor por calidad, y remux sí/no.
+1.4.53: con el modo automático ya no asoma la lista de fuentes y solo hay una rueda de carga.
+1.4.52: arreglado «no abre» en pelis empezadas y luego sin progreso (p. ej. Spider-Man en el Top 10).
+1.4.51: el aviso de vincular AllDebrid se ve también la primera vez tras abrir Kodi; si lo cierras, no se queda en bucle cargando.
+1.4.50: el aviso para vincular AllDebrid (código PIN) se ve siempre; el resto de avisos de carga siguen ocultos.
+1.4.49: limpieza interna (indicador de carga que nunca se veía).
+1.4.48: las listas de Kodi (elegir skin, subtítulos…) se abren al momento, a la primera.
+1.4.47: vuelta a la 1.4.39 con solo dos arreglos: las listas de subtítulos/audio ya no salen vacías y salir de la reproducción la para.
+1.4.39: los textos de Palantir (títulos de capítulos, menús) salen siempre en blanco: la skin desactiva los colores de Palantir.
 1.4.37: las actualizaciones llegan directas de GitHub (sin depender de Cloudflare).
 1.4.35: botones de los diálogos iguales en toda la skin (Reanudar, avisos, Ajustes, Personalizar el Inicio).
 1.4.34: Ajustes → Secciones del menú: elige con un interruptor qué secciones salen en el menú lateral.
@@ -50,7 +61,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.0.58" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.1" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -76,7 +87,18 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.0.58: los textos de Palantir (títulos de capítulos, menús) salen siempre en blanco: la skin desactiva los colores de Palantir.
+		<news>1.1.1: al salir de una peli con el Atrás del móvil se vuelve bien al Inicio (antes podía quedarse en negro «Cargando» tras varios Atrás).
+1.1.0: versión nueva: reproducción automática por orden de calidades (Ajustes → Prioridad de reproducción), aviso de vincular AllDebrid, rueda de carga única y al hacer buffer, listas de subtítulos/audio, salir para la reproducción y arreglo de pelis que no abrían.
+1.0.74: Personalizar el Inicio: interruptor por fila y botón «Activar / desactivar», igual que Prioridad de reproducción.
+1.0.73: Ajustes → Prioridad de reproducción: reproducción automática sí/no, orden de calidades (4K, DV, HDR10, HDR10+, 1080p, 720p, resto) con interruptor por calidad, y remux sí/no.
+1.0.72: con el modo automático ya no asoma la lista de fuentes y solo hay una rueda de carga.
+1.0.71: arreglado «no abre» en pelis empezadas y luego sin progreso (p. ej. Spider-Man en el Top 10).
+1.0.70: el aviso de vincular AllDebrid se ve también la primera vez tras abrir Kodi; si lo cierras, no se queda en bucle cargando.
+1.0.69: el aviso para vincular AllDebrid (código PIN) se ve siempre; el resto de avisos de carga siguen ocultos.
+1.0.68: si la peli se para a cargar sale una rueda «Cargando… N %» en el centro, sin tener que tocar la pantalla.
+1.0.67: las listas de Kodi (elegir skin, subtítulos…) se abren al momento, a la primera.
+1.0.66: vuelta a la 1.0.58 con solo dos arreglos: las listas de subtítulos/audio ya no salen vacías y salir de la reproducción (Atrás del móvil incluido) la para.
+1.0.58: los textos de Palantir (títulos de capítulos, menús) salen siempre en blanco: la skin desactiva los colores de Palantir.
 1.0.57: tras actualizar la skin el Inicio ya no se queda en «Cargando…»; en el logo destaca KER0N3.
 1.0.56: el título de los capítulos sale siempre en blanco (antes, con el color de los ajustes de Palantir).
 1.0.55: las actualizaciones llegan directas de GitHub (sin depender de Cloudflare).
