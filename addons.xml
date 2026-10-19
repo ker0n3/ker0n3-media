@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.14" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.15" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.14: lo marcado en otro aparato (vista, progreso, dejar de seguir) vuelve a llegar solo: Palantir sincroniza con Trakt al arrancar, al acabar un vídeo y cada 30 min (en segundo plano) y las filas se ponen al día al terminar.
+		<news>1.5.15: las series también llevan estado en todas las filas (Top 10, secciones, buscador): ✓ si has visto todos los capítulos, ▶ si la llevas a medias.
+1.5.14: lo marcado en otro aparato (vista, progreso, dejar de seguir) vuelve a llegar solo: Palantir sincroniza con Trakt al arrancar, al acabar un vídeo y cada 30 min (en segundo plano) y las filas se ponen al día al terminar.
 1.5.13: ✓ de vista también en las secciones (Películas, Series…) y en el buscador.
 1.5.12: ✓ al momento al marcar como vista; ▶ en las series de Series en seguimiento; el Top 10 ya no acaba en «Ver más».
 1.5.11: los menús de Palantir con el diseño Ker0n3; al dejar de seguir una serie desaparece al momento de Series en seguimiento y te lo confirma.
@@ -74,7 +75,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.12" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.13" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -100,7 +101,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.12: la sincronización con Trakt también se repite al acabar un vídeo y cada 30 min con Kodi abierto (antes solo al arrancar).
+		<news>1.1.13: las series también llevan estado en todas las filas (Top 10, secciones, buscador): ✓ si has visto todos los capítulos, ▶ si la llevas a medias.
+1.1.12: la sincronización con Trakt también se repite al acabar un vídeo y cada 30 min con Kodi abierto (antes solo al arrancar).
 1.1.11: el menú de mantener pulsado encuentra la película aunque acabes de marcarla (antes, al desmarcarla, decía que Palantir estaba ocupado).
 1.1.10: lo marcado en otro aparato (vista, progreso, dejar de seguir) vuelve a llegar solo: Palantir sincroniza con Trakt al arrancar, en segundo plano, y el Inicio se pone al día al terminar.
 1.1.9: el menú de mantener pulsado ya no se abre dos veces (marcaba la película que no era); ✓ también en las secciones y el buscador.
