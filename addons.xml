@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.19" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.21" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.19: Nota de Letterboxd o Metacritic (con clave de MDBList en Ajustes); sin clave, la de siempre.
+		<news>1.5.21: Búsqueda más lista sin tardar más: lo que coincide va primero, y si no encuentra nada parecido prueba la ú, espacios, números (2 / II / dos), plurales y el título latino o inglés. Lo que tienes empezado (película a medias o serie en curso) abre «Seguir viendo / Desde el principio / Ver ficha» en vez de la ficha. «Ver» en una serie sin empezar pone T1 E1 (sin los especiales).
+1.5.19: Nota de Letterboxd o Metacritic (con clave de MDBList en Ajustes); sin clave, la de siempre.
 1.5.18: lo que quitas del progreso en un aparato (película o capítulo a medias) también desaparece de los demás la próxima vez que abres Kodi; teclado y avisos (contraseña, sí/no) con el estilo Ker0n3. La sincronización con Trakt es ya solo al abrir Kodi: Palantir no trae nada más hasta reiniciarlo.
 1.5.17: las series vuelven a llevar bien su estado en el Inicio, el Top 10 y las secciones: ▶ si la llevas a medias (aunque solo hayas visto un par de capítulos) y sin ▶ al dejar de seguirla.
 1.5.16: dejar de seguir (o marcar) en otro aparato ya quita la serie de Series en seguimiento aunque Palantir lo haya traído de Trakt nada más arrancar (antes se quedaba con ▶ hasta que caducaba la fila).
@@ -79,7 +80,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.18" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.20" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -105,7 +106,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.18: Nota de Letterboxd o Metacritic (con clave de MDBList en Ajustes); sin clave, la de siempre.
+		<news>1.1.20: Búsqueda más lista sin tardar más: lo que coincide va primero, y si no encuentra nada parecido prueba la ú, espacios, números (2 / II / dos), plurales y el título latino o inglés. Lo que tienes empezado (película a medias o serie en curso) abre «Seguir viendo / Desde el principio / Ver ficha» en vez de la ficha. «Ver» en una serie sin empezar pone T1 E1 (sin los especiales). Capítulos vistos con un solo check verde.
+1.1.18: Nota de Letterboxd o Metacritic (con clave de MDBList en Ajustes); sin clave, la de siempre.
 1.1.17: los resultados del buscador se desplazan igual de fino que el Inicio.
 1.1.16: lo que quitas del progreso en un aparato (película o capítulo a medias) también desaparece de los demás la próxima vez que abres Kodi; teclado y avisos (contraseña, sí/no) con el estilo Ker0n3. La sincronización con Trakt es ya solo al abrir Kodi: Palantir no trae nada más hasta reiniciarlo.
 1.1.15: las series vuelven a llevar bien su estado en el Inicio, el Top 10 y las secciones: ▶ si la llevas a medias (aunque solo hayas visto un par de capítulos) y sin ▶ al dejar de seguirla.
