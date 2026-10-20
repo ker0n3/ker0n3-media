@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.26" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.27" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.26: tras ver un capítulo, «Series en seguimiento» se renueva y la serie que acabas de ver sale la primera.
+		<news>1.5.27: la nota (Metacritic / IMDb con MDBList, o la ★ de TMDB) se ve también en la ficha de cada serie, junto a temporadas y género.
+1.5.26: tras ver un capítulo, «Series en seguimiento» se renueva y la serie que acabas de ver sale la primera.
 1.5.25: nota con MDBList: Metacritic y, si el título no la tiene (series), IMDb; si tampoco, la de TMDB. Letterboxd fuera. Las notas de las filas se cargan en segundo plano: casi siempre salen ya puestas.
 1.5.24: el aviso «Siguiente capítulo» ya no sale tras el último capítulo de la serie y, al acabar una temporada, anuncia el primero de la siguiente. Al terminar una serie (último capítulo visto) sale de «Series en seguimiento» al momento, sin reiniciar Kodi.
 1.5.23: la ficha de una serie enseña las temporadas a la izquierda y los capítulos de la que eliges a la derecha, en una sola pantalla. Búsquedas cortas («up», «it») sin los títulos que solo contienen esas letras; la categoría con el título exacto sale arriba; lo que buscas con «Buscar» queda en recientes.
@@ -85,7 +86,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.27" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.28" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -111,7 +112,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.27: al abrir «Series en seguimiento» entera, las series a medias salen con ▶ (antes todas con ✓ de vista).
+		<news>1.1.28: la nota (Metacritic / IMDb con MDBList, o la ★ de TMDB) se ve también en la ficha de cada serie, junto a temporadas y género.
+1.1.27: al abrir «Series en seguimiento» entera, las series a medias salen con ▶ (antes todas con ✓ de vista).
 1.1.26: tras ver un capítulo, «Series en seguimiento» se renueva y la serie que acabas de ver sale la primera.
 1.1.25: los botones de abajo del reproductor (Audio, Subtítulos, Imagen, Siguiente, Info) caben siempre en pantalla y ya no se desplazan.
 1.1.24: nota con MDBList: Metacritic y, si el título no la tiene (series), IMDb; si tampoco, la de TMDB. Letterboxd fuera. Las notas de las filas se cargan en segundo plano: casi siempre salen ya puestas.
