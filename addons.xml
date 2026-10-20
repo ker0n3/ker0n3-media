@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.17" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.18" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.17: las series vuelven a llevar bien su estado en el Inicio, el Top 10 y las secciones: ▶ si la llevas a medias (aunque solo hayas visto un par de capítulos) y sin ▶ al dejar de seguirla.
+		<news>1.5.18: lo que quitas del progreso en un aparato (película o capítulo a medias) también desaparece de los demás la próxima vez que abres Kodi; teclado y avisos (contraseña, sí/no) con el estilo Ker0n3. La sincronización con Trakt es ya solo al abrir Kodi: Palantir no trae nada más hasta reiniciarlo.
+1.5.17: las series vuelven a llevar bien su estado en el Inicio, el Top 10 y las secciones: ▶ si la llevas a medias (aunque solo hayas visto un par de capítulos) y sin ▶ al dejar de seguirla.
 1.5.16: dejar de seguir (o marcar) en otro aparato ya quita la serie de Series en seguimiento aunque Palantir lo haya traído de Trakt nada más arrancar (antes se quedaba con ▶ hasta que caducaba la fila).
 1.5.15: las series también llevan estado en todas las filas (Top 10, secciones, buscador): ✓ si has visto todos los capítulos, ▶ si la llevas a medias.
 1.5.14: lo marcado en otro aparato (vista, progreso, dejar de seguir) vuelve a llegar solo: Palantir sincroniza con Trakt al arrancar, al acabar un vídeo y cada 30 min (en segundo plano) y las filas se ponen al día al terminar.
@@ -77,7 +78,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.15" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.16" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -103,7 +104,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.15: las series vuelven a llevar bien su estado en el Inicio, el Top 10 y las secciones: ▶ si la llevas a medias (aunque solo hayas visto un par de capítulos) y sin ▶ al dejar de seguirla.
+		<news>1.1.16: lo que quitas del progreso en un aparato (película o capítulo a medias) también desaparece de los demás la próxima vez que abres Kodi; teclado y avisos (contraseña, sí/no) con el estilo Ker0n3. La sincronización con Trakt es ya solo al abrir Kodi: Palantir no trae nada más hasta reiniciarlo.
+1.1.15: las series vuelven a llevar bien su estado en el Inicio, el Top 10 y las secciones: ▶ si la llevas a medias (aunque solo hayas visto un par de capítulos) y sin ▶ al dejar de seguirla.
 1.1.14: dejar de seguir (o marcar) en otro aparato ya quita la serie de Series en seguimiento aunque Palantir lo haya traído de Trakt nada más arrancar (antes se quedaba con ▶ hasta que caducaba la fila).
 1.1.13: las series también llevan estado en todas las filas (Top 10, secciones, buscador): ✓ si has visto todos los capítulos, ▶ si la llevas a medias.
 1.1.12: la sincronización con Trakt también se repite al acabar un vídeo y cada 30 min con Kodi abierto (antes solo al arrancar).
