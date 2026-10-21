@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.31" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.32" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.31: aviso de «Seguir viendo»: los tres botones del mismo tamaño y en una sola fila.
+		<news>1.5.32: «más…» en las listas completas ya no repite los títulos de la primera página.
+1.5.31: aviso de «Seguir viendo»: los tres botones del mismo tamaño y en una sola fila.
 1.5.30: ficha de serie: al volver a una temporada que ya habías visto, sus capítulos salen al momento (se guardan las 6 últimas mientras estás en la serie; tras ver un capítulo se vuelven a pedir para que los ✓ estén al día).
 1.5.29: la ficha de serie abre más rápido: las temporadas ya no se piden dos veces a Palantir y los capítulos de la temporada inicial se piden en seguida; al cambiar de temporada nunca asoman los capítulos de la anterior.
 1.5.28: ficha de serie con el círculo verde de visto en temporadas y capítulos y rueda de carga al cambiar de temporada; Inicio en cuadrícula (al subir o bajar de fila se mantiene la posición); Ajustes → «Nota de los títulos»: elige el orden de las fuentes (Metacritic, IMDb, Rotten Tomatoes, Letterboxd, TMDB) y pon la clave de MDBList, como en Personalizar el Inicio.
@@ -90,7 +91,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.32" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.33" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -178,7 +179,8 @@
 1.0.35: el buscador encuentra títulos parecidos.
 1.1.30: la ficha de serie abre más rápido: las temporadas ya no se piden dos veces a Palantir; al tocar otra temporada nunca asoman los capítulos de la anterior.
 1.1.31: ficha de serie: al volver a una temporada que ya habías tocado, sus capítulos salen al momento (se guardan las 6 últimas mientras estás en la serie).
-1.1.32: aviso de «Seguir viendo»: los tres botones del mismo tamaño y en una sola fila; tras la intro ya no asoma el botón «Abrir Inicio».</news>
+1.1.32: aviso de «Seguir viendo»: los tres botones del mismo tamaño y en una sola fila; tras la intro ya no asoma el botón «Abrir Inicio».
+1.1.33: «más…» en las listas completas ya no repite los títulos de la primera página.</news>
 	</extension>
 </addon>
 <addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.5" provider-name="Ker0n3">
