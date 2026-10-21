@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.36" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.37" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.36: «Personalizar menú e Inicio»: «Cambiar nombre» en secciones, filas del Inicio y filas de cada sección (vacío = el de Palantir). Las secciones «Especial…» siguen al especial que tenga Palantir (Halloween → Navidad) y se esconden cuando no hay ninguno.
+		<news>1.5.37: menú de una serie: «Dejar de seguir la serie» solo sale si la sigues (está en «Series en seguimiento»).
+1.5.36: «Personalizar menú e Inicio»: «Cambiar nombre» en secciones, filas del Inicio y filas de cada sección (vacío = el de Palantir). Las secciones «Especial…» siguen al especial que tenga Palantir (Halloween → Navidad) y se esconden cuando no hay ninguno.
 1.5.35: Ajustes → «Personalizar menú e Inicio»: un solo editor para las secciones del menú, las filas del Inicio y las de cada sección. OK abre las opciones de cada fila (editar filas, mover, ocultar, quitar): ya no hace falta mantener OK. Todo se guarda al momento. «Nota de los títulos» se maneja igual.
 1.5.34: menú lateral: al abrirlo se oscurece lo de detrás y los nombres largos de sección se leen enteros; «Nota de los títulos»: TMDB aparece como la predefinida; Anime con icono de espadas y las secciones «Especial…» con destellos.
 1.5.33: Ajustes → «Secciones del menú»: ordena las secciones, añade otras del menú de Palantir (Telenovelas, Música, Series en seguimiento…) y, con «Editar filas», elige qué filas salen dentro de cada sección y en qué orden.
@@ -95,7 +96,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.38" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.39" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -189,7 +190,8 @@
 1.1.35: todas las ventanas emergentes se cierran desde la pantalla, sin el gesto Atrás de Android: X en el menú de una carátula y en «Seguir viendo» (tocar fuera también cierra), flecha de volver en los editores de Ajustes y en las listas para elegir.
 1.1.36: en tablets (pantallas de 1920 de ancho) caben las 7 tarjetas de arriba; «Nota de los títulos»: TMDB aparece como la predefinida.
 1.1.37: Ajustes → «Personalizar menú e Inicio»: un solo editor para las secciones, las filas del Inicio y las de cada sección, con botones en cada fila (flechas para ordenar, interruptor, papelera y «Filas»); todo se guarda al momento. «Nota de los títulos» igual.
-1.1.38: «Personalizar menú e Inicio»: toca el nombre de una sección o fila para cambiarlo (vacío = el de Palantir). Las secciones «Especial…» siguen al especial que tenga Palantir y se esconden cuando no hay ninguno.</news>
+1.1.38: «Personalizar menú e Inicio»: toca el nombre de una sección o fila para cambiarlo (vacío = el de Palantir). Las secciones «Especial…» siguen al especial que tenga Palantir y se esconden cuando no hay ninguno.
+1.1.39: menú de una serie: «Dejar de seguir la serie» solo sale si la sigues (está en «Series en seguimiento»).</news>
 	</extension>
 </addon>
 <addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.5" provider-name="Ker0n3">
