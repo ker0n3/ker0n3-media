@@ -101,7 +101,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.42" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.43" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -198,7 +198,8 @@
 1.1.38: «Personalizar menú e Inicio»: toca el nombre de una sección o fila para cambiarlo (vacío = el de Palantir). Las secciones «Especial…» siguen al especial que tenga Palantir y se esconden cuando no hay ninguno.
 1.1.39: menú de una serie: «Dejar de seguir la serie» solo sale si la sigues (está en «Series en seguimiento»).
 1.1.40: cambios internos compartidos con la versión de TV.
-1.1.42: tocar una película abre el aviso de «Seguir viendo» o la ficha en la mitad de tiempo.</news>
+1.1.42: tocar una película abre el aviso de «Seguir viendo» o la ficha en la mitad de tiempo.
+1.1.43: mantener pulsada una carátula abre su menú a la primera y siempre el de esa carátula (antes a veces no salía o salía el de otra).</news>
 	</extension>
 </addon>
 <addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.5" provider-name="Ker0n3">
