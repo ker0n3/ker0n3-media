@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.49" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.50" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.49: si la skin se actualiza sola mientras ves algo, la película sigue y el aviso «Siguiente capítulo» ya no puede cerrar Kodi; una sección abierta ya no se queda en negro; los avisos de Palantir ya no pueden quedarse invisibles con el mando bloqueado; buscar con Palantir desactivado avisa en vez de quedarse buscando.
+		<news>1.5.50: nuevo botón «Elegir resolución» en la ficha para escoger la fuente aunque tengas la reproducción automática; en Ajustes eliges a cuántos segundos del final sale el aviso «Siguiente capítulo»; al reproducir un capítulo desde la ficha de serie ya no salen dos ruedas de carga; Inicio y secciones abren más rápido y el Inicio deja libre a Palantir mientras miras una ficha o un vídeo; menos consultas en segundo plano y carátulas más ligeras en teles de 1080.
+1.5.49: si la skin se actualiza sola mientras ves algo, la película sigue y el aviso «Siguiente capítulo» ya no puede cerrar Kodi; una sección abierta ya no se queda en negro; los avisos de Palantir ya no pueden quedarse invisibles con el mando bloqueado; buscar con Palantir desactivado avisa en vez de quedarse buscando.
 1.5.48: al abrir Kodi, una película a medias ya no ofrece «Ver» desde el principio mientras se sincroniza con Trakt; «No seguir esta serie» ya no se deshace al reiniciar; «Seguir viendo» quita al momento lo que terminas; las secciones ya no vuelven a cargar todo tras pasar por el Inicio; en una instalación nueva «Seguir viendo» se llena bien.
 1.5.47: tras actualizarse la skin sola, abrir un resultado del buscador ya no cierra Kodi y los resultados siguen en pantalla.
 1.5.46: las filas de plataformas del Inicio se llaman como en Palantir, con la inicial: «Lo mejor de N», «Series de AP»…
@@ -106,7 +107,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.49" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.50" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -210,7 +211,8 @@
 1.1.46: las filas de plataformas del Inicio se llaman como en Palantir, con la inicial: «Lo mejor de N», «Series de AP»…
 1.1.47: tras actualizarse la skin sola, tocar la pantalla justo en ese momento ya no cierra Kodi y el Inicio ya no desaparece (antes había que cerrar Kodi); abrir un resultado del buscador tampoco lo cierra.
 1.1.48: al abrir Kodi, una película a medias ya no ofrece «Ver» desde el principio mientras se sincroniza con Trakt; «No seguir esta serie» ya no se deshace al reiniciar; las series a medias llevan su ▶ aunque no tengas películas empezadas; en una instalación nueva «Seguir viendo» se llena bien.
-1.1.49: si la skin se actualiza sola mientras ves algo, la película sigue y el aviso «Siguiente capítulo» ya no puede cerrar Kodi; los avisos de Palantir ya no pueden quedarse invisibles con la pantalla bloqueada; buscar con Palantir desactivado avisa en vez de quedarse buscando.</news>
+1.1.49: si la skin se actualiza sola mientras ves algo, la película sigue y el aviso «Siguiente capítulo» ya no puede cerrar Kodi; los avisos de Palantir ya no pueden quedarse invisibles con la pantalla bloqueada; buscar con Palantir desactivado avisa en vez de quedarse buscando.
+1.1.50: nuevo botón «Elegir resolución» en la ficha para escoger la fuente aunque tengas la reproducción automática; en Ajustes eliges a cuántos segundos del final sale el aviso «Siguiente capítulo»; al reproducir un capítulo desde la ficha de serie ya no salen dos ruedas de carga; secciones más rápidas de abrir y menos consultas en segundo plano.</news>
 	</extension>
 </addon>
 <addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.5" provider-name="Ker0n3">
