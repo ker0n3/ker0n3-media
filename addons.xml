@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.46" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.47" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.46: las filas de plataformas del Inicio se llaman como en Palantir, con la inicial: «Lo mejor de N», «Series de AP»…
+		<news>1.5.47: tras actualizarse la skin sola, abrir un resultado del buscador ya no cierra Kodi y los resultados siguen en pantalla.
+1.5.46: las filas de plataformas del Inicio se llaman como en Palantir, con la inicial: «Lo mejor de N», «Series de AP»…
 1.5.45: Kodi ya no se cierra al actualizarse la skin sola. En una instalación nueva, «Series en seguimiento» y «Seguir viendo» se llenan en cuanto Palantir trae tus datos de Trakt.
 1.5.44: al instalar la skin o cambiar de skin y volver, el Inicio se abre bien (antes podía quedarse solo el menú lateral).
 1.5.43: Inicio tan rápido como las secciones: las filas salen al momento con lo guardado y se actualizan por detrás; pulsar una película responde igual de rápido que dentro de una sección. Mismo aspecto. Personalizar el Inicio se aplica sin recargar la pantalla.
@@ -103,7 +104,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.46" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.47" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -204,7 +205,8 @@
 1.1.43: mantener pulsada una carátula abre su menú a la primera y siempre el de esa carátula (antes a veces no salía o salía el de otra).
 1.1.44: mantener pulsada otra carátula justo después de cerrar un menú ya abre el suyo (antes había que esperar unos segundos).
 1.1.45: en una instalación nueva, «Series en seguimiento» y «Seguir viendo» se llenan en cuanto Palantir trae tus datos de Trakt.
-1.1.46: las filas de plataformas del Inicio se llaman como en Palantir, con la inicial: «Lo mejor de N», «Series de AP»…</news>
+1.1.46: las filas de plataformas del Inicio se llaman como en Palantir, con la inicial: «Lo mejor de N», «Series de AP»…
+1.1.47: tras actualizarse la skin sola, tocar la pantalla justo en ese momento ya no cierra Kodi y el Inicio ya no desaparece (antes había que cerrar Kodi); abrir un resultado del buscador tampoco lo cierra.</news>
 	</extension>
 </addon>
 <addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.5" provider-name="Ker0n3">
