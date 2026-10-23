@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.53" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.54" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.53: «Series en seguimiento» vuelve a salir por lo último que has visto: lo que llega de otro aparato por Trakt ya no se cuela delante con la hora de la sincronización.
+		<news>1.5.54: botón «Tráiler» en la ficha de película y en la de serie (con el addon YouTube instalado): el tráiler se ve como un vídeo más y al acabar, o con Atrás, vuelves a la ficha; si uno no se puede ver en España, prueba el siguiente.
+1.5.53: «Series en seguimiento» vuelve a salir por lo último que has visto: lo que llega de otro aparato por Trakt ya no se cuela delante con la hora de la sincronización.
 1.5.52: vuelve la tarjeta «Ver más» al final de las filas del Inicio (se había perdido en la 1.5.43).
 1.5.51: «Elegir resolución» pasa al menú de mantener pulsado (con «Marcar como vista», «Valorar»…) y sale de la ficha; el selector muestra la película elegida.
 1.5.50: nuevo botón «Elegir resolución» en la ficha para escoger la fuente aunque tengas la reproducción automática; en Ajustes eliges a cuántos segundos del final sale el aviso «Siguiente capítulo»; al reproducir un capítulo desde la ficha de serie ya no salen dos ruedas de carga; Inicio y secciones abren más rápido y el Inicio deja libre a Palantir mientras miras una ficha o un vídeo; menos consultas en segundo plano y carátulas más ligeras en teles de 1080.
@@ -110,7 +111,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.53" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.54" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -218,7 +219,8 @@
 1.1.50: nuevo botón «Elegir resolución» en la ficha para escoger la fuente aunque tengas la reproducción automática; en Ajustes eliges a cuántos segundos del final sale el aviso «Siguiente capítulo»; al reproducir un capítulo desde la ficha de serie ya no salen dos ruedas de carga; secciones más rápidas de abrir y menos consultas en segundo plano.
 1.1.51: «Elegir resolución» pasa al menú de mantener pulsado (con «Marcar como vista», «Valorar»…) y sale de la ficha; el selector muestra la película elegida.
 1.1.52: las películas vistas enseñan su ✓ en las carátulas al momento, sin reiniciar Kodi (antes no salía en las que Palantir conoce la duración).
-1.1.53: «Series en seguimiento» vuelve a salir por lo último que has visto: lo que llega de otro aparato por Trakt ya no se cuela delante con la hora de la sincronización.</news>
+1.1.53: «Series en seguimiento» vuelve a salir por lo último que has visto: lo que llega de otro aparato por Trakt ya no se cuela delante con la hora de la sincronización.
+1.1.54: botón «Tráiler» en la ficha de película y en la de serie (con el addon YouTube instalado): el tráiler se ve como un vídeo más y al acabar, o con Atrás, vuelves a la ficha; si uno no se puede ver en España, prueba el siguiente.</news>
 	</extension>
 </addon>
 <addon id="repository.ker0n3media" name="Ker0n3 Media" version="1.0.5" provider-name="Ker0n3">
