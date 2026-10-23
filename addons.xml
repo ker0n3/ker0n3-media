@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.54" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.55" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.54: botón «Tráiler» en la ficha de película y en la de serie (con el addon YouTube instalado): el tráiler se ve como un vídeo más y al acabar, o con Atrás, vuelves a la ficha; si uno no se puede ver en España, prueba el siguiente.
+		<news>1.5.55: en la pantalla de la serie, el menú de un capítulo (mantener OK / pulsación larga) vuelve a ser el del capítulo y marca solo ese capítulo (salía el de la temporada desde la 1.5.23); al pulsar un capítulo empezado sale nuestro aviso «Seguir viendo / Desde el principio», centrado; el mando ya no se queda sin foco al cerrar un menú; «Continuar» señala bien el capítulo a medias y pasa a la temporada siguiente (decía «T1 E7» con 6 capítulos) y con la serie vista entera dice «Ver de nuevo».
+1.5.54: botón «Tráiler» en la ficha de película y en la de serie (con el addon YouTube instalado): el tráiler se ve como un vídeo más y al acabar, o con Atrás, vuelves a la ficha; si uno no se puede ver en España, prueba el siguiente.
 1.5.53: «Series en seguimiento» vuelve a salir por lo último que has visto: lo que llega de otro aparato por Trakt ya no se cuela delante con la hora de la sincronización.
 1.5.52: vuelve la tarjeta «Ver más» al final de las filas del Inicio (se había perdido en la 1.5.43).
 1.5.51: «Elegir resolución» pasa al menú de mantener pulsado (con «Marcar como vista», «Valorar»…) y sale de la ficha; el selector muestra la película elegida.
