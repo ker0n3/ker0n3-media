@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.59" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.64" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.59: al salir de Personalizar inicio con Ajustes abierto, el Inicio ya no se queda en negro (se rehace al cerrar Ajustes); en la pantalla de la serie, «Continuar» pasa a la temporada siguiente aunque Palantir tarde en dar cuántos capítulos tiene (salía «T1 E7» con 6).
+		<news>1.5.64: Personalizar menú e Inicio → «Inicio» tiene dos modos: «Aleatoria» (arriba siempre Seguir viendo, Series en seguimiento y los dos Top 10; debajo listas de TMDB —tendencias, plataformas, géneros— que cambian cada vez que arranca Kodi, ya precargadas; eliges cuántas y de qué apartados) y «Personalizada» (tus filas, como hasta ahora). Las instalaciones nuevas empiezan en «Aleatoria». En las secciones (Películas, Series, Anime…), «Editar filas» → «Añadir fila» deja añadir listas de TMDB o cualquier menú de Palantir, y cualquier fila se puede eliminar (las de Palantir se recuperan con «Añadir fila»). Al arrancar, si faltan YouTube o InputStream Adaptive (o están rotos), la skin ofrece instalarlos: con ellos los tráileres cargan al momento. «Prioridad de reproducción» con el mismo editor que el resto; cualquier sección del menú se puede eliminar; las opciones de Palantir del menú de mantener pulsado (no seguir, marcar como vista…) salen antes. Tras salir de un capítulo a los pocos segundos, la rueda «Cargando capítulos» vuelve a salir al cambiar de temporada; Atrás en la pregunta de Palantir deja el foco en el Inicio. Nuevo en Ajustes: «Modo ligero»: Inicio más ligero para aparatos lentos. Los capítulos empezados llevan ▶ rojo.
+1.5.59: al salir de Personalizar inicio con Ajustes abierto, el Inicio ya no se queda en negro (se rehace al cerrar Ajustes); en la pantalla de la serie, «Continuar» pasa a la temporada siguiente aunque Palantir tarde en dar cuántos capítulos tiene (salía «T1 E7» con 6).
 1.5.58: al acabar un capítulo y darle a «Siguiente», si Palantir tarda en cargarlo ya no sale «No hay más capítulos» antes de empezar; «Seguir viendo» justo después de parar un capítulo ya no se ignora; no se ve un instante el aviso de carga de AllDebrid.
 1.5.57: Personalizar inicio → «Añadir fila» → «Listas de TMDB…»: filas con tendencias, populares, por plataforma y por género (Acción, Suspense, Terror, Comedia…), hechas solo con lo que tiene Palantir.
 1.5.56: en la pantalla de la serie, marcar un capítulo como visto o no visto ya no recarga todo: temporadas y capítulos se quedan a la vista, solo cambia su ✓ y el foco sigue en el capítulo; el menú responde a la primera; al salir de un capítulo a los pocos segundos ya no se vuelve a reproducir solo; en el Inicio vuelve a funcionar marcar una película como vista desde el menú (fallaba desde la 1.5.43).
@@ -116,7 +117,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.60" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.69" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -142,7 +143,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.60: en la pantalla de la serie, «Continuar» pasa a la temporada siguiente aunque Palantir tarde en dar cuántos capítulos tiene (salía «T1 E7» con 6).
+		<news>1.1.69: Personalizar menú e Inicio → «Inicio» tiene dos modos: «Aleatoria» (arriba siempre Seguir viendo, Series en seguimiento y los dos Top 10; debajo listas de TMDB —tendencias, plataformas, géneros— que cambian cada vez que arranca Kodi, ya precargadas; eliges cuántas y de qué apartados) y «Personalizada» (tus filas, como hasta ahora). Las instalaciones nuevas empiezan en «Aleatoria». En las secciones (Películas, Series, Anime…), «Editar filas» → «Añadir fila» deja añadir listas de TMDB o cualquier menú de Palantir, y cualquier fila se puede eliminar (las de Palantir se recuperan con «Añadir fila»). Al arrancar, si faltan YouTube o InputStream Adaptive (o están rotos), la skin ofrece instalarlos: con ellos los tráileres cargan al momento. «Prioridad de reproducción» con el mismo editor que el resto; cualquier sección del menú se puede eliminar; las opciones de Palantir del menú de mantener pulsado (no seguir, marcar como vista…) salen antes. Tras salir de un capítulo a los pocos segundos, la rueda «Cargando capítulos» vuelve a salir al cambiar de temporada; Atrás en la pregunta de Palantir deja el foco en el Inicio. Nuevo en Ajustes: «Modo ligero»: Inicio más ligero para aparatos lentos.
+1.1.60: en la pantalla de la serie, «Continuar» pasa a la temporada siguiente aunque Palantir tarde en dar cuántos capítulos tiene (salía «T1 E7» con 6).
 1.1.59: al acabar un capítulo y darle a «Siguiente», si Palantir tarda en cargarlo ya no sale «No hay más capítulos» antes de empezar; «Seguir viendo» justo después de parar un capítulo ya no se ignora; no se ve un instante el aviso de carga de AllDebrid.
 1.1.58: Personalizar inicio → «Añadir fila» → «Listas de TMDB…»: filas con tendencias, populares, por plataforma y por género (Acción, Suspense, Terror, Comedia…), hechas solo con lo que tiene Palantir. Al borrar una fila y añadir otra, la nueva ya no sale con los títulos de la borrada.
 1.1.56: en la pantalla de la serie, marcar un capítulo como visto o no visto ya no recarga todo: temporadas y capítulos se quedan a la vista, solo cambia su ✓ y el foco sigue en el capítulo; el menú responde a la primera; al salir de un capítulo a los pocos segundos ya no se vuelve a reproducir solo; con el menú abierto ya no salen todas las temporadas resaltadas; etiquetas «Marcar como visto/no visto» del capítulo en masculino.
