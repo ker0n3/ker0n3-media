@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.68" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.69" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.68: series que Palantir reparte en más temporadas que TMDB (Bleach, animes largos): cada temporada con los capítulos que tiene Palantir y sin año inventado; «Continuar» va al siguiente capítulo que Palantir tiene de verdad o, si no tiene más, pone «Al día». Fechas de estreno de los capítulos siempre en dd/mm/aaaa.
+		<news>1.5.69: las series terminadas que ya has visto enteras salen al momento de «Series en seguimiento»; al marcar una película como no vista, la ✓ se quita siempre (a veces se quedaba).
+1.5.68: series que Palantir reparte en más temporadas que TMDB (Bleach, animes largos): cada temporada con los capítulos que tiene Palantir y sin año inventado; «Continuar» va al siguiente capítulo que Palantir tiene de verdad o, si no tiene más, pone «Al día». Fechas de estreno de los capítulos siempre en dd/mm/aaaa.
 1.5.67: escribir desde el móvil: en el buscador y en cualquier teclado (clave de MDBList, nombres, contraseñas…) sale un código QR; escanéalo con el móvil en la misma WiFi, escribe, pega o dicta, y el texto llega a la tele. Las secciones (Películas, Anime…) vuelven a abrirse al momento con lo de la última vez aunque haga días que no entras, y se ponen al día por detrás.
 1.5.66: al marcar como vista (o no vista, quitar progreso, dejar de seguir…) desde el menú de mantener pulsado sale una rueda «Marcando como vista…» hasta que Palantir lo confirma. Tráiler: primero el doblado al español; los «VOSE» (en inglés con subtítulos) van después, y si YouTube le añade un doblaje automático se oye el audio original desde el principio. Atrás en el menú lateral del Inicio lleva a la lupa de buscar (antes a Ajustes). En la ficha de un addon (Actualizar, Versiones…) se ve qué botón está elegido. Al marcar como vista o no vista, la ✓ del póster cambia en un par de segundos (a veces tardaba más de 10).
 1.5.65: en las filas de listas de TMDB del Inicio (las del modo «Aleatoria» y las añadidas con «Listas de TMDB…»), «Marcar como vista» y el resto de opciones de Palantir del menú ya funcionan (salía «Palantir está ocupado»).
@@ -121,7 +122,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.72" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.73" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -147,7 +148,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.72: series que Palantir reparte en más temporadas que TMDB (Bleach, animes largos): cada temporada con los capítulos que tiene Palantir y sin año inventado; «Continuar» va al siguiente capítulo que Palantir tiene de verdad o, si no tiene más, pone «Al día». Fechas de estreno de los capítulos siempre en dd/mm/aaaa.
+		<news>1.1.73: las series terminadas que ya has visto enteras salen al momento de «Series en seguimiento»; al marcar una película como no vista, la ✓ se quita siempre (a veces se quedaba).
+1.1.72: series que Palantir reparte en más temporadas que TMDB (Bleach, animes largos): cada temporada con los capítulos que tiene Palantir y sin año inventado; «Continuar» va al siguiente capítulo que Palantir tiene de verdad o, si no tiene más, pone «Al día». Fechas de estreno de los capítulos siempre en dd/mm/aaaa.
 1.1.71: las secciones (Películas, Anime…) vuelven a abrirse al momento con lo de la última vez aunque haga días que no entras, y se ponen al día por detrás.
 1.1.70: al marcar como vista (o no vista, quitar progreso, dejar de seguir…) desde el menú de mantener pulsado sale una rueda «Marcando como vista…» hasta que Palantir lo confirma, y la ✓ del póster cambia en un par de segundos (a veces tardaba más de 10). Tráiler: primero el doblado al español; los «VOSE» (en inglés con subtítulos) van después, y si YouTube le añade un doblaje automático se oye el audio original desde el principio.
 1.1.69: Personalizar menú e Inicio → «Inicio» tiene dos modos: «Aleatoria» (arriba siempre Seguir viendo, Series en seguimiento y los dos Top 10; debajo listas de TMDB —tendencias, plataformas, géneros— que cambian cada vez que arranca Kodi, ya precargadas; eliges cuántas y de qué apartados) y «Personalizada» (tus filas, como hasta ahora). Las instalaciones nuevas empiezan en «Aleatoria». En las secciones (Películas, Series, Anime…), «Editar filas» → «Añadir fila» deja añadir listas de TMDB o cualquier menú de Palantir, y cualquier fila se puede eliminar (las de Palantir se recuperan con «Añadir fila»). Al arrancar, si faltan YouTube o InputStream Adaptive (o están rotos), la skin ofrece instalarlos: con ellos los tráileres cargan al momento. «Prioridad de reproducción» con el mismo editor que el resto; cualquier sección del menú se puede eliminar; las opciones de Palantir del menú de mantener pulsado (no seguir, marcar como vista…) salen antes. Tras salir de un capítulo a los pocos segundos, la rueda «Cargando capítulos» vuelve a salir al cambiar de temporada; Atrás en la pregunta de Palantir deja el foco en el Inicio. Nuevo en Ajustes: «Modo ligero»: Inicio más ligero para aparatos lentos.
