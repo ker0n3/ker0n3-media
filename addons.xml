@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.83" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.84" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.83: la ficha de una serie va en una ventana propia de la skin: mantener OK o la tecla de menú sobre una temporada abre su menú (marcar la temporada como vista o no vista); una temporada que aún se está emitiendo sale «En progreso» hasta el último capítulo; «Seguir viendo» al acabar una temporada pasa a la siguiente.
+		<news>1.5.84: el buscador encuentra antes los resultados: solo pregunta a Palantir en las secciones que tienen algún título parecido (antes las ocho, una detrás de otra), y si ninguna lo tiene prueba enseguida otras formas de escribirlo y los títulos de TMDB.
+1.5.83: la ficha de una serie va en una ventana propia de la skin: mantener OK o la tecla de menú sobre una temporada abre su menú (marcar la temporada como vista o no vista); una temporada que aún se está emitiendo sale «En progreso» hasta el último capítulo; «Seguir viendo» al acabar una temporada pasa a la siguiente.
 1.5.82: en las listas de elegir de Kodi (por ejemplo, elegir skin o colores en Ajustes) ya se ve qué opción está marcada: la fila sale en blanco con letra negra (antes era negra sobre fondo negro y no se distinguía).
 1.5.81: en la ficha de una serie, cada temporada dice los capítulos que tiene Palantir y, si TMDB cuenta otros, también los suyos («61 episodios (TMDB: 26)»), y marca «En progreso» las empezadas; «Continuar» ya no salta a la temporada siguiente antes de tiempo cuando Palantir tiene más capítulos que TMDB; si ningún enlace funciona, el aviso «Ningún enlace disponible» ya se ve (se cerraba solo al momento, tapado por la pantalla de carga).
 1.5.80: los tráileres que empezaban sin sonido vuelven solos al principio y ya se oyen (el audio de YouTube a veces no arrancaba hasta avanzar o retroceder).
@@ -136,7 +137,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.88" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.89" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -162,7 +163,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.88: «Seguir viendo» al acabar una temporada arranca antes el primer capítulo de la siguiente (una sola consulta a Palantir cuando ya conoce la serie, antes tres).
+		<news>1.1.89: el buscador encuentra antes los resultados: solo pregunta a Palantir en las secciones que tienen algún título parecido (antes las ocho, una detrás de otra), y si ninguna lo tiene prueba enseguida otras formas de escribirlo y los títulos de TMDB.
+1.1.88: «Seguir viendo» al acabar una temporada arranca antes el primer capítulo de la siguiente (una sola consulta a Palantir cuando ya conoce la serie, antes tres).
 1.1.87: «Seguir viendo» de una serie con la temporada acabada pasa al primer capítulo de la siguiente (antes decía «al día»: Slow Horses T1 vista iba a un T1 E7 que no existe).
 1.1.86: en la ficha de una serie, mantener pulsado un capítulo abre su menú a la primera (antes había que hacerlo dos veces) y mantener pulsada una temporada abre el suyo (marcar la temporada como vista o no vista); la ficha va en una ventana propia de la skin.
 1.1.85: en la ficha de una serie, cada temporada dice los capítulos que tiene Palantir y, si TMDB cuenta otros, también los suyos («61 episodios (TMDB: 26)»), y marca «En progreso» las empezadas; «Continuar» ya no salta a la temporada siguiente antes de tiempo cuando Palantir tiene más capítulos que TMDB; si ningún enlace funciona, el aviso «Ningún enlace disponible» ya se ve (se cerraba solo al momento, tapado por la pantalla de carga).
