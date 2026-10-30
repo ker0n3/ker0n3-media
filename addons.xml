@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.5.93" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.5.94" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.5.93: «Seguir» de una serie con una temporada marcada vista de golpe (Tierra de mafiosos: T1 vista y salía «Seguir T1 E2») ya propone el siguiente de verdad; el buscador ya no tarda tanto la primera vez después de que Palantir actualice su catálogo (prepara su lista de títulos por detrás al arrancar).
+		<news>1.5.94: gran repaso de diseño y velocidad. El Inicio sale antes al encender (unos 7 s; antes 9). Buscador: repetir una búsqueda es instantáneo (recuerda cada una 10 minutos), arriba desde la primera fila vuelve a la caja, Atrás en la caja ya no borra letras y el QR «Desde el móvil» ya no sale en blanco después de ver algo. Favoritos sale al momento con lo de la última vez, también después de quitar un favorito. Se lee mejor: letra más grande en sinopsis, ayudas y capítulos, y el texto de las cabeceras se lee con cualquier fondo. El foco, los botones y los avisos tienen la misma forma en todas partes. Las barras de progreso de las carátulas van en el color de los detalles y dentro de la carátula (la del reproductor sigue blanca), y la ✓ de visto es verde en todas partes. Menú lateral: arriba desde Inicio llega a buscar y ajustes, y derecha abre la sección como OK. Atrás hace lo mismo en todas las ventanas, todo queda dentro de la pantalla en las teles que recortan los bordes y Kodi se cierra al momento.
+1.5.93: «Seguir» de una serie con una temporada marcada vista de golpe (Tierra de mafiosos: T1 vista y salía «Seguir T1 E2») ya propone el siguiente de verdad; el buscador ya no tarda tanto la primera vez después de que Palantir actualice su catálogo (prepara su lista de títulos por detrás al arrancar).
 1.5.92: aviso con el código QR del grupo de Telegram de la skin (t.me/skinker0n3media) para avisar de fallos y proponer mejoras: sale al instalar o actualizar y después una vez por semana; mientras Palantir instala una actualización de su contenido la skin no le lee la base (se había quedado parado «actualizando contenido» hasta cambiar de skin).
 1.5.90: al mantener OK sobre una película o serie, «Añadir a lista de Trakt…» abre tus listas de Trakt para elegir en cuál guardarla; vuelve la sección Trakt, ahora en filas como Favoritos (una por lista, sin las vacías); en el menú de mantener OK caben ahora seis opciones.
 1.5.89: al quitar un favorito desde Películas, Series u otra sección ya no desaparece de esas filas (solo de las de Favoritos).
@@ -145,7 +146,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.1.98" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.1.99" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -171,7 +172,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.1.98: «Seguir» de una serie con una temporada marcada vista de golpe (Tierra de mafiosos: T1 vista y salía «Seguir T1 E2») ya propone el siguiente de verdad; el buscador ya no tarda tanto la primera vez después de que Palantir actualice su catálogo (prepara su lista de títulos por detrás al arrancar).
+		<news>1.1.99: gran repaso de diseño y velocidad. Zonas de toque más grandes en toda la skin: botones, teclas, la flecha de volver y la X de cerrar responden aunque no aciertes justo encima, y la X y la flecha son iguales en todas las pantallas. Letra más clara, con menos tamaños y mejor elegidos. Ajustes va en una lista que se desliza con inercia. En la ficha de una serie, «Seguir viendo · T1 E68» se lee entero. El teclado del buscador es más alto y repetir una búsqueda es instantáneo (recuerda cada una 10 minutos). El botón principal de cada pantalla y las barras de progreso van en el color de los detalles, y la ✓ de visto es verde en todas partes. Favoritos sale al momento con lo de la última vez, también después de quitar un favorito. La portada ya no dice «N.º 1 en películas hoy» cuando no lo es, en el reproductor el salto al arrastrar el dedo espera 0,9 s con el dedo quieto y Kodi se cierra al momento.
+1.1.98: «Seguir» de una serie con una temporada marcada vista de golpe (Tierra de mafiosos: T1 vista y salía «Seguir T1 E2») ya propone el siguiente de verdad; el buscador ya no tarda tanto la primera vez después de que Palantir actualice su catálogo (prepara su lista de títulos por detrás al arrancar).
 1.1.97: aviso del grupo de Telegram de la skin (t.me/skinker0n3media) para avisar de fallos y proponer mejoras, con botón para abrirlo: sale al instalar o actualizar y después una vez por semana; mientras Palantir instala una actualización de su contenido la skin no le lee la base (se había quedado parado «actualizando contenido» hasta cambiar de skin).
 1.1.95: al mantener pulsada una película o serie, «Añadir a lista de Trakt…» abre tus listas de Trakt para elegir en cuál guardarla; vuelve la sección Trakt, ahora en filas como Favoritos (una por lista, sin las vacías).
 1.1.94: al quitar un favorito dentro de Favoritos desaparece de la fila al momento (antes había que salir y volver a entrar).
