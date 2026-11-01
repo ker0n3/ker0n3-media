@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.6.2" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.6.3" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.6.2: «Ver similares» abre ahora una sección («Similares a …», fila «Títulos parecidos»): una película abre su ficha y una serie su pantalla de serie, con el menú KER0N3 y Atrás para volver. Antes, en la cuadrícula de Kodi, la película se reproducía sin ficha y la serie se quedaba cargando.
+		<news>1.6.3: Nuevo botón ( i ) en la ficha de película y de serie: datos, dirección y reparto con fotos. Pulsa una persona para ver sus películas y series en una sección; Atrás vuelve a la ficha. En el menú de salir, «Recargar skin» (debajo de «Apagar»): recarga sin cerrar Kodi y saca la siguiente tanda de filas al azar, como al reiniciar. Arreglos: «Ver similares» abierto desde la búsqueda o una ficha ya no enseña el menú lateral; cualquier tecla antes del tráiler automático lo corta; al salir de un vídeo ya no asoma la rueda de carga.
+1.6.2: «Ver similares» abre ahora una sección («Similares a …», fila «Títulos parecidos»): una película abre su ficha y una serie su pantalla de serie, con el menú KER0N3 y Atrás para volver. Antes, en la cuadrícula de Kodi, la película se reproducía sin ficha y la serie se quedaba cargando.
 1.6.1: «Ver similares»: mantén pulsado el botón central sobre una carátula (Inicio, secciones o búsqueda) y en el menú, la última opción abre una cuadrícula con títulos parecidos que tiene Palantir (recomendaciones de TMDB). Nuevo en Ajustes → OTROS, «Enviar informe de fallo»: si algo ha fallado, sube el registro de Kodi (con las claves tapadas) y da un código para pasarlo por Telegram; vale aunque ya se haya cerrado Kodi. «Ajustes de Palantir» y «Ajustes de Kodi» van ahora en la misma fila.
 1.6.0: en la búsqueda, mantener pulsado el botón central sobre un resultado abre el menú KER0N3 (vista, no vista, resolución, favoritos…), como en las filas. Las filas al azar del Inicio cambian en cada arranque aunque Kodi se abra solo un momento o se ponga un vídeo nada más abrir: sin sorteo preparado se sortea al momento entre las listas ya guardadas. Dentro de una sección, «Inicio» del menú enseña su vista previa aunque «Seguir viendo» se quede vacío. El aviso de novedades vuelve a contar el tráiler automático y la vista previa del menú, y añade esto.
 1.5.100: vista previa en el menú lateral. Al pararte en Películas, Series… ves arriba su primer título y debajo sus primeras filas, sin entrar (al momento si está guardada; si no, a los 1,5 s). Se activa en Ajustes → Personalizar menú e Inicio (primera fila); viene apagada, y en modo ligero no hay. Las secciones tienen ahora el mismo menú lateral que el Inicio, con lupa y ajustes: entrar desde la vista previa no da saltos, Atrás va de las filas al menú, a la lupa y a cerrar Kodi, y «Inicio» vuelve al Inicio. En una serie empezada, el menú ofrece «Marcar serie como no vista», como Palantir (para terminarla, la temporada). Un aviso, una sola vez, cuenta estas novedades y el tráiler automático.
@@ -155,7 +156,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.2.3" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.2.4" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -181,7 +182,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.2.3: «Ver similares» abre ahora una sección («Similares a …»): una película abre su ficha y una serie su pantalla de serie, con el menú de mantener pulsado y atrás para volver. Antes la película se reproducía sin ficha y la serie se quedaba cargando.
+		<news>1.2.4: Nuevo botón ( i ) en la ficha de película y de serie: datos, dirección y reparto con fotos; toca una persona para ver sus películas y series, atrás vuelve a la ficha. En el menú de salir, «Recargar skin»: recarga sin cerrar Kodi y saca la siguiente tanda de filas al azar. Al salir de un vídeo ya no asoma la rueda de carga.
+1.2.3: «Ver similares» abre ahora una sección («Similares a …»): una película abre su ficha y una serie su pantalla de serie, con el menú de mantener pulsado y atrás para volver. Antes la película se reproducía sin ficha y la serie se quedaba cargando.
 1.2.2: «Ver similares»: mantén pulsada una carátula y en el menú, la última opción abre una cuadrícula con títulos parecidos que tiene Palantir (recomendaciones de TMDB). Las filas al azar del Inicio cambian en cada arranque aunque Kodi se abra solo un momento o se ponga un vídeo nada más abrir. En una serie empezada, el menú ofrece «Marcar serie como no vista», como Palantir.
 1.2.1: Inicio aleatorio: en cada arranque cambian más filas. En Niños y Adolescentes, que tienen pocas listas de series, se repetían casi las mismas; ahora sale antes una lista nueva que una repetida (Adolescentes: 7 filas nuevas de 8; Niños: todas).
 1.2.0: nuevo en Ajustes → OTROS, «Pasar ajustes a otro aparato»: lleva el color de los detalles, la reproducción, las notas, el Inicio y el menú a otro móvil, directo por la wifi de casa con un código de 4 cifras o con un fichero, que sirve también de copia; antes de cambiar nada pregunta, y «Recuperar los ajustes anteriores» lo deshace. El modo ligero y el historial se quedan en cada aparato. Inicio para niños y para adolescentes: en Personalizar menú e Inicio → Inicio → Aleatoria, la primera fila «Tipo» elige Estándar, Niños o Adolescentes, con Seguir viendo, Series en seguimiento y filas al azar de listas de su edad (17 de niños y 15 de adolescentes); los Top 10 se pueden poner con «Añadir fija». El teclado numérico (códigos, PIN, horas) tiene el diseño de la skin.
