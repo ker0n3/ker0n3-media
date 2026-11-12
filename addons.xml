@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.palantir.flix" version="1.7.22" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix" version="1.7.23" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -28,7 +28,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.7.22: El rótulo del principio (edad, resolución, audio y título) entra y sale con suavidad, deslizándose desde la derecha, y se queda unos segundos más (9 en vez de 6).
+		<news>1.7.23: El rótulo del principio se lee mejor sobre escenas claras: la segunda línea (resolución y audio) va en blanco y detrás hay una sombra muy suave; abajo sale solo el nombre de la película. En el reproductor, la sombra de abajo ya no sube hasta media pantalla: con la barra sola (al avanzar o retroceder con las flechas) y en pausa se queda a la altura de lo que se ve. En «Personalizar menú e Inicio», la vista previa y el carrusel del Top 10 llevan su interruptor, como las secciones.
+1.7.22: El rótulo del principio (edad, resolución, audio y título) entra y sale con suavidad, deslizándose desde la derecha, y se queda unos segundos más (9 en vez de 6).
 1.7.21: Nuevo: carrusel con el Top 10 al abrir el Inicio; pasa solo al siguiente cada 12 s y se puede quitar en Ajustes → «Personalizar menú e Inicio». Al empezar a ver algo (también al reanudar) sale unos segundos un rótulo con la edad recomendada, la resolución y el audio reales, y el título; sustituye al número de la edad que salía solo. La cabecera del Inicio y la ficha de película enseñan el mejor audio que hay del título (Dolby Atmos, DTS-HD, Dolby Digital Plus…); la primera vez tras actualizar puede no salir en la cabecera hasta volver a abrir Kodi. Ficha de película: los datos se ven con los mismos iconos que en el Inicio, los botones ocupan lo justo y hay uno nuevo, «Similares», que también está en la ficha de serie. El aviso «Te quedaste en…» dice además a qué hora acabaría si sigues ahora.
 1.7.20: Buscador mucho más rápido: la skin busca ella misma en el catálogo en lugar de preguntar a Palantir sección por sección. En mis pruebas en un Fire TV, una búsqueda normal pasa de 10-17 s a 1-3 s y el primer resultado sale en 1-2 s. Los resultados son los mismos: la skin lo comprueba sola contra Palantir antes de activarlo y, si algo no cuadra, se lo vuelve a preguntar a él. El aviso «Trakt no sincroniza» es más prudente y no debería saltar sin motivo. Si te ha salido estos días: según la documentación de Trakt, han cambiado su sistema de autorización y hay que volver a vincular Trakt una vez en los ajustes de Palantir; después no debería repetirse.
 1.7.19: Más ágil. Las filas del Inicio las prepara ahora la propia skin en lugar de pedírselas una a una a Palantir, así que salen bastante antes (en mis pruebas, un Inicio recién abierto tarda menos de la mitad). Al abrir una serie que ya habías abierto antes en ese aparato, las temporadas salen al momento y los capítulos en la mitad de tiempo. Y al parar un vídeo, «Seguir viendo» se pone al día unos segundos antes. La skin lo comprueba sola contra Palantir: si algo no cuadra, se lo vuelve a pedir a él como siempre. Nuevo: el tráiler automático puede sonar también al pararte sobre una carátula de las filas; viene apagado y se elige en Ajustes → «Tráiler automático». Buscador: encuentra títulos que en España se llaman distinto que el original (escribiendo «colony» sale «Zona cero»). Arreglado: lo que acababas de parar podía desaparecer unos segundos de «Seguir viendo».
@@ -178,7 +179,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.palantir.flix.touch" version="1.3.22" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.palantir.flix.touch" version="1.3.23" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
@@ -204,7 +205,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>1.3.22: El rótulo del principio (edad, resolución, audio y título) entra y sale con suavidad, deslizándose desde la derecha, y se queda unos segundos más (9 en vez de 6).
+		<news>1.3.23: El rótulo del principio se lee mejor sobre escenas claras: la segunda línea (resolución y audio) va en blanco y detrás hay una sombra muy suave; abajo sale solo el nombre de la película (antes salía con el año y los idiomas entre corchetes). En el reproductor, la sombra de abajo ya no sube tanto con la barra sola ni en pausa.
+1.3.22: El rótulo del principio (edad, resolución, audio y título) entra y sale con suavidad, deslizándose desde la derecha, y se queda unos segundos más (9 en vez de 6).
 1.3.21: Al empezar a ver algo (también al reanudar) sale unos segundos un rótulo con la edad recomendada, la resolución y el audio reales, y el título; sustituye al número de la edad que salía solo. Botón «Similares» en la ficha de película, junto al de información. El aviso «Te quedaste en…» dice además a qué hora acabaría si sigues ahora.
 1.3.20: Buscador más rápido: la skin busca ella misma en el catálogo en lugar de preguntar a Palantir sección por sección (se nota sobre todo en aparatos lentos). Los resultados son los mismos: la skin lo comprueba sola contra Palantir antes de activarlo y, si algo no cuadra, se lo vuelve a preguntar a él. Al entrar en una serie ya abierta antes, los capítulos salen antes. El aviso «Trakt no sincroniza» es más prudente y no debería saltar sin motivo. Si te ha salido estos días: según la documentación de Trakt, han cambiado su sistema de autorización y hay que volver a vincular Trakt una vez en los ajustes de Palantir; después no debería repetirse.
 1.3.19: Más ágil. Las filas del Inicio las prepara ahora la propia skin en lugar de pedírselas una a una a Palantir, así que deberían salir bastante antes. Al abrir una serie que ya habías abierto antes en ese aparato, las temporadas salen al momento y los capítulos antes. La skin lo comprueba sola contra Palantir: si algo no cuadra, se lo vuelve a pedir a él como siempre. Buscador: encuentra títulos que en España se llaman distinto que el original (escribiendo «colony» sale «Zona cero»).
