@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.ker0n3.flix" version="2.0.8" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix" version="2.0.9" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
@@ -30,7 +30,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.8: El buscador vuelve a mirar los títulos que tenía apuntados como «sin versión» si el apunte tiene más de una hora (Bleach no salía en series). Abajo a la izquierda sale también la versión del addon. Las skins antiguas, que ya no se usan, dejan de salir repetidas en el selector de skins. Si algo falla o va distinto, dímelo.
+		<news>2.0.9: En el buscador cada fila sale en cuanto está lista (las series ya no esperan a las películas), y en la táctil se ve la rueda de carga mientras busca, como en la TV. Si algo falla o va distinto, dímelo.
+2.0.8: El buscador vuelve a mirar los títulos que tenía apuntados como «sin versión» si el apunte tiene más de una hora (Bleach no salía en series). Abajo a la izquierda sale también la versión del addon. Las skins antiguas, que ya no se usan, dejan de salir repetidas en el selector de skins. Si algo falla o va distinto, dímelo.
 2.0.7: Más ágil. Mientras miras la ficha de una película, la de una serie (el capítulo en el que te paras) o el aviso «Seguir viendo», voy preparando por detrás la versión para ver, y al pulsar «Ver» suele arrancar antes. Con el aviso «Siguiente capítulo» preparo también el siguiente. No toca tu cuenta de AllDebrid hasta que pulsas. Las ventanas y avisos abren y cierran un poco más rápido. Si algo falla o va distinto, dímelo.
 2.0.6: Filas nuevas para el Inicio y las secciones: temas (atracos, viajes en el tiempo, zombis, espías, cine español…), estudios (Pixar, Ghibli, A24…), colecciones (IMDb Top 250, ganadoras del Óscar, giros de guion…), lo más visto en streaming anime (de esta temporada, mejor valorado…), series y películas juveniles, y más filas para Niños y Adolescentes. Salen en el Inicio aleatorio y en «Añadir fila». Como siempre, solo enseñan lo que tiene versión para ver. Si algo falla o va distinto, dímelo.
 2.0.5: «Elegir resolución» enseña cada versión con sus insignias (calidad, imagen, audio y canales, cuando la versión lo dice), el idioma y el tamaño, y avisa si aún no está lista. Cuentas pasa a ser una pantalla como la de Notas, con AllDebrid, Trakt, PeLis y MDBList; MDBList (las notas de IMDb, Metacritic…) se vincula con un asistente, como PeLis. Si algo falla o va distinto, dímelo.
@@ -209,7 +210,7 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.ker0n3.flix.touch" version="2.0.8" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix.touch" version="2.0.9" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
@@ -237,7 +238,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.8: El buscador vuelve a mirar los títulos que tenía apuntados como «sin versión» si el apunte tiene más de una hora (Bleach no salía en series). Abajo a la izquierda sale también la versión del addon. Las skins antiguas, que ya no se usan, dejan de salir repetidas en el selector de skins. Si algo falla o va distinto, dímelo.
+		<news>2.0.9: En el buscador cada fila sale en cuanto está lista (las series ya no esperan a las películas), y en la táctil se ve la rueda de carga mientras busca, como en la TV. Si algo falla o va distinto, dímelo.
+2.0.8: El buscador vuelve a mirar los títulos que tenía apuntados como «sin versión» si el apunte tiene más de una hora (Bleach no salía en series). Abajo a la izquierda sale también la versión del addon. Las skins antiguas, que ya no se usan, dejan de salir repetidas en el selector de skins. Si algo falla o va distinto, dímelo.
 2.0.7: Más ágil. Mientras miras la ficha de una película, la de una serie (el capítulo en el que te paras) o el aviso «Seguir viendo», voy preparando por detrás la versión para ver, y al pulsar «Ver» suele arrancar antes. Con el aviso «Siguiente capítulo» preparo también el siguiente. No toca tu cuenta de AllDebrid hasta que pulsas. Las ventanas y avisos abren y cierran un poco más rápido. Si algo falla o va distinto, dímelo.
 2.0.6: Filas nuevas para el Inicio y las secciones: temas (atracos, viajes en el tiempo, zombis, espías, cine español…), estudios (Pixar, Ghibli, A24…), colecciones (IMDb Top 250, ganadoras del Óscar, giros de guion…), lo más visto en streaming anime (de esta temporada, mejor valorado…), series y películas juveniles, y más filas para Niños y Adolescentes. Salen en el Inicio aleatorio y en «Añadir fila». Como siempre, solo enseñan lo que tiene versión para ver. Si algo falla o va distinto, dímelo.
 2.0.5: «Elegir resolución» enseña cada versión con sus insignias (calidad, imagen, audio y canales, cuando la versión lo dice), el idioma y el tamaño, y avisa si aún no está lista. Cuentas pasa a ser una pantalla como la de Notas, con AllDebrid, Trakt, PeLis y MDBList; MDBList (las notas de IMDb, Metacritic…) se vincula con un asistente, como PeLis. Si algo falla o va distinto, dímelo.
