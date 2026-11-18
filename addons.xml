@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.ker0n3.flix" version="2.0.4" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix" version="2.0.5" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.3.9"/>
+		<import addon="plugin.video.ker0n3" version="0.4.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<!-- <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -30,7 +30,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.4: La ficha de una serie vuelve a enseñar su nota (★ de TMDB, o la de IMDb/Metacritic si tengo MDBList). En las series que ahora salen con sus temporadas como en Stremio (Bleach, Doraemon…), el capítulo debería decirse igual en todas partes: en Seguir viendo, Series en seguimiento, el menú del capítulo, el aviso de siguiente capítulo y el rótulo del reproductor (por ejemplo «T20 E9» en vez de «T2 E49»). Si algo falla o va distinto, dímelo.
+		<news>2.0.5: «Elegir resolución» enseña cada versión con sus insignias (calidad, imagen, audio y canales, cuando la versión lo dice), el idioma y el tamaño, y avisa si aún no está lista. Cuentas pasa a ser una pantalla como la de Notas, con AllDebrid, Trakt, PeLis y MDBList; MDBList (las notas de IMDb, Metacritic…) se vincula con un asistente, como PeLis. Si algo falla o va distinto, dímelo.
+2.0.4: La ficha de una serie vuelve a enseñar su nota (★ de TMDB, o la de IMDb/Metacritic si tengo MDBList). En las series que ahora salen con sus temporadas como en Stremio (Bleach, Doraemon…), el capítulo debería decirse igual en todas partes: en Seguir viendo, Series en seguimiento, el menú del capítulo, el aviso de siguiente capítulo y el rótulo del reproductor (por ejemplo «T20 E9» en vez de «T2 E49»). Si algo falla o va distinto, dímelo.
 2.0.3: Las series con una temporada enorme en TMDB (Bleach, Doraemon…) salen con sus temporadas como en Stremio: Bleach, en 16 temporadas y las 4 partes de «La guerra sangrienta de los mil años». Por dentro no cambia nada: lo visto y el capítulo por el que vas deberían seguir igual. Si algo falla o va distinto, dímelo.
 2.0.2: Al pulsar «Siguiente» en el aviso de siguiente capítulo, el siguiente vuelve a ponerse (a veces no arrancaba). El capítulo que se pone solo sale con el nombre de la serie. Anime y series con la numeración cambiada (Bleach «La guerra sangrienta de los mil años», Apothecary Diaries, Doraemon…): se buscan los enlaces del capítulo correcto. El menú de un capítulo ya no se queda sin responder.
 2.0.1: Lo que cambias en un aparato (favoritos, pausas, lo visto) sale en los demás sin tener que salir y entrar: Seguir viendo, Series en seguimiento y Favoritos se ponen al día solos cuando llega algo de Trakt.
@@ -205,12 +206,12 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.ker0n3.flix.touch" version="2.0.4" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix.touch" version="2.0.5" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.3.9"/>
+		<import addon="plugin.video.ker0n3" version="0.4.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -233,7 +234,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.4: La ficha de una serie vuelve a enseñar su nota (★ de TMDB, o la de IMDb/Metacritic si tengo MDBList). En las series que ahora salen con sus temporadas como en Stremio (Bleach, Doraemon…), el capítulo debería decirse igual en todas partes: en Seguir viendo, Series en seguimiento, el menú del capítulo, el aviso de siguiente capítulo y el rótulo del reproductor (por ejemplo «T20 E9» en vez de «T2 E49»). Si algo falla o va distinto, dímelo.
+		<news>2.0.5: «Elegir resolución» enseña cada versión con sus insignias (calidad, imagen, audio y canales, cuando la versión lo dice), el idioma y el tamaño, y avisa si aún no está lista. Cuentas pasa a ser una pantalla como la de Notas, con AllDebrid, Trakt, PeLis y MDBList; MDBList (las notas de IMDb, Metacritic…) se vincula con un asistente, como PeLis. Si algo falla o va distinto, dímelo.
+2.0.4: La ficha de una serie vuelve a enseñar su nota (★ de TMDB, o la de IMDb/Metacritic si tengo MDBList). En las series que ahora salen con sus temporadas como en Stremio (Bleach, Doraemon…), el capítulo debería decirse igual en todas partes: en Seguir viendo, Series en seguimiento, el menú del capítulo, el aviso de siguiente capítulo y el rótulo del reproductor (por ejemplo «T20 E9» en vez de «T2 E49»). Si algo falla o va distinto, dímelo.
 2.0.3: Las series con una temporada enorme en TMDB (Bleach, Doraemon…) salen con sus temporadas como en Stremio: Bleach, en 16 temporadas y las 4 partes de «La guerra sangrienta de los mil años». Por dentro no cambia nada: lo visto y el capítulo por el que vas deberían seguir igual. Si algo falla o va distinto, dímelo.
 2.0.2: Al pulsar «Siguiente» en el aviso de siguiente capítulo, el siguiente vuelve a ponerse (a veces no arrancaba). El capítulo que se pone solo sale con el nombre de la serie. Anime y series con la numeración cambiada (Bleach «La guerra sangrienta de los mil años», Apothecary Diaries, Doraemon…): se buscan los enlaces del capítulo correcto. El menú de un capítulo ya no se queda sin responder.
 2.0.1: Lo que cambias en un aparato (favoritos, pausas, lo visto) sale en los demás sin tener que salir y entrar: Seguir viendo, Series en seguimiento y Favoritos se ponen al día solos cuando llega algo de Trakt.
@@ -409,7 +411,7 @@
 1.1.55: en la pantalla de la serie, el menú de un capítulo (mantener OK / pulsación larga) vuelve a ser el del capítulo y marca solo ese capítulo (salía el de la temporada desde la 1.5.23); al pulsar un capítulo empezado sale nuestro aviso «Seguir viendo / Desde el principio», centrado; el mando ya no se queda sin foco al cerrar un menú; «Continuar» señala bien el capítulo a medias y pasa a la temporada siguiente (decía «T1 E7» con 6 capítulos) y con la serie vista entera dice «Ver de nuevo».</news>
 	</extension>
 </addon>
-<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.3.9" provider-name="ker0n3">
+<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.0" provider-name="ker0n3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
