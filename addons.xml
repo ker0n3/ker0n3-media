@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.ker0n3.flix" version="2.0.14" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix" version="2.0.15" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.4.8"/>
+		<import addon="plugin.video.ker0n3" version="0.4.9"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<!-- <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -30,7 +30,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.14: El capítulo que se estrena hoy (o ayer) y aún no tiene ninguna versión sale como «Aún no disponible» al abrir la ficha, sin tener que pulsar «Ver»; se vuelve a mirar al rato. En las películas recién estrenadas salen más versiones: si alguna demuestra que ya está en casa, las demás también valen (las grabaciones de cine siguen fuera). Si algo falla o va distinto, dímelo.
+		<news>2.0.15: Las fichas de película se abren al momento y el aviso «Seguir viendo» sale antes; en «Series en seguimiento», si te paras un segundo sobre una serie, su aviso también sale al momento. Al subir o bajar de fila, el foco cae en la carátula de debajo sin que la fila dé un salto, y las filas ya no se reordenan mientras te mueves por ellas. En «Elegir versión» salen también las versiones de PeLis aunque tarde en contestar. Una serie cuyo siguiente capítulo aún no tiene versión lo dice («T1 E5 · Aún no disponible») y el foco va a «Ver temporadas».
+2.0.14: El capítulo que se estrena hoy (o ayer) y aún no tiene ninguna versión sale como «Aún no disponible» al abrir la ficha, sin tener que pulsar «Ver»; se vuelve a mirar al rato. En las películas recién estrenadas salen más versiones: si alguna demuestra que ya está en casa, las demás también valen (las grabaciones de cine siguen fuera). Si algo falla o va distinto, dímelo.
 2.0.13: En las secciones Trakt y Favoritos, botón «Ocultar vistos» junto al título: quita las películas vistas y las series acabadas (se recuerda). Lo que añades a tu watchlist o tus listas de Trakt sale al momento. Las tarjetas de capítulo de «Seguir viendo» vuelven a llevar el año. Y en Navidad, la intro se pone el gorro. Si algo falla o va distinto, dímelo.
 2.0.12: PeLis: para no pasar de su límite (60 títulos cada 10 minutos, que bloquea la configuración 24 horas) ya solo le pregunto por detrás cuando ninguna otra fuente trae castellano; al pulsar «Ver» o «Elegir versión» sí le pregunto siempre. Si te sale el bloqueo, crea otra configuración de PeLis y ponla en Ajustes → Cuentas; mejor una distinta en cada aparato. Fuera la calidad y el idioma de la cabecera y las fichas: no siempre eran exactos; lo real lo ves en «Elegir versión». En películas recién estrenadas ya salen las versiones de PeLis. En aparatos con CoreELEC o LibreELEC el tráiler automático debería salir y el botón de apagar apaga el aparato. Si algo falla o va distinto, dímelo.
 2.0.11: «Ver más» mucho más rápido: la página siguiente se prepara mientras miras la cuadrícula y al pulsar aparece al momento (comprobar si una serie tiene versión va bastante más rápido, también en el buscador). Listas de Trakt: en la pulsación larga de un título de una de tus listas sale «Quitar de esta lista»; el menú «Listas de Trakt…» dice «Añadir a…» o «Quitar de…», deja borrar una lista (pide confirmación) y se ve como el resto de menús; la sección Trakt se pone al día al momento tras cada cambio. Si algo falla o va distinto, dímelo.
@@ -215,12 +216,12 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.ker0n3.flix.touch" version="2.0.14" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix.touch" version="2.0.15" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.4.8"/>
+		<import addon="plugin.video.ker0n3" version="0.4.9"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -243,7 +244,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.14: El capítulo que se estrena hoy (o ayer) y aún no tiene ninguna versión sale como «Aún no disponible» al abrir la ficha, sin tener que pulsar «Ver»; se vuelve a mirar al rato. En las películas recién estrenadas salen más versiones: si alguna demuestra que ya está en casa, las demás también valen (las grabaciones de cine siguen fuera). Si algo falla o va distinto, dímelo.
+		<news>2.0.15: Las fichas de película se abren al momento y el aviso «Seguir viendo» sale antes; en «Series en seguimiento», si te paras un segundo sobre una serie, su aviso también sale al momento. Al subir o bajar de fila, el foco cae en la carátula de debajo sin que la fila dé un salto, y las filas ya no se reordenan mientras te mueves por ellas. En «Elegir versión» salen también las versiones de PeLis aunque tarde en contestar. Una serie cuyo siguiente capítulo aún no tiene versión lo dice («T1 E5 · Aún no disponible») y el foco va a «Ver temporadas».
+2.0.14: El capítulo que se estrena hoy (o ayer) y aún no tiene ninguna versión sale como «Aún no disponible» al abrir la ficha, sin tener que pulsar «Ver»; se vuelve a mirar al rato. En las películas recién estrenadas salen más versiones: si alguna demuestra que ya está en casa, las demás también valen (las grabaciones de cine siguen fuera). Si algo falla o va distinto, dímelo.
 2.0.13: Las secciones se ponen al día solas tras cambiar algo con la pulsación larga (watchlist, listas de Trakt, vistas). En las secciones Trakt y Favoritos, botón «Ocultar vistos» junto al título: quita las películas vistas y las series acabadas (se recuerda). Lo que añades a tu watchlist o tus listas de Trakt sale al momento. Las tarjetas de capítulo de «Seguir viendo» vuelven a llevar el año. Y en Navidad, la intro se pone el gorro. Si algo falla o va distinto, dímelo.
 2.0.12: Las pantallas de una sola fila (años, géneros, sagas, «Ver similares»…) se ven en cuadrícula, con «Ver más» al final. PeLis: para no pasar de su límite (60 títulos cada 10 minutos, que bloquea la configuración 24 horas) ya solo le pregunto por detrás cuando ninguna otra fuente trae castellano; al pulsar «Ver» o «Elegir versión» sí le pregunto siempre. Si te sale el bloqueo, crea otra configuración de PeLis y ponla en Ajustes → Cuentas; mejor una distinta en cada aparato. Fuera la calidad y el idioma de la cabecera y las fichas: no siempre eran exactos; lo real lo ves en «Elegir versión». En películas recién estrenadas ya salen las versiones de PeLis. En aparatos con CoreELEC o LibreELEC el tráiler automático debería salir y el botón de apagar apaga el aparato. Si algo falla o va distinto, dímelo.
 2.0.11: Comprobar si una serie tiene versión va bastante más rápido (buscador, filas y «Ver más»). Listas de Trakt: en la pulsación larga de un título de una de tus listas sale «Quitar de esta lista»; el menú «Listas de Trakt…» dice «Añadir a…» o «Quitar de…», deja borrar una lista (pide confirmación) y se ve como el resto de menús; la sección Trakt se pone al día al momento tras cada cambio. Si algo falla o va distinto, dímelo.
@@ -429,7 +431,7 @@
 1.1.55: en la pantalla de la serie, el menú de un capítulo (mantener OK / pulsación larga) vuelve a ser el del capítulo y marca solo ese capítulo (salía el de la temporada desde la 1.5.23); al pulsar un capítulo empezado sale nuestro aviso «Seguir viendo / Desde el principio», centrado; el mando ya no se queda sin foco al cerrar un menú; «Continuar» señala bien el capítulo a medias y pasa a la temporada siguiente (decía «T1 E7» con 6 capítulos) y con la serie vista entera dice «Ver de nuevo».</news>
 	</extension>
 </addon>
-<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.8" provider-name="ker0n3">
+<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.9" provider-name="ker0n3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
