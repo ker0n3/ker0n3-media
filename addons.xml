@@ -433,7 +433,7 @@
 1.1.55: en la pantalla de la serie, el menú de un capítulo (mantener OK / pulsación larga) vuelve a ser el del capítulo y marca solo ese capítulo (salía el de la temporada desde la 1.5.23); al pulsar un capítulo empezado sale nuestro aviso «Seguir viendo / Desde el principio», centrado; el mando ya no se queda sin foco al cerrar un menú; «Continuar» señala bien el capítulo a medias y pasa a la temporada siguiente (decía «T1 E7» con 6 capítulos) y con la serie vista entera dice «Ver de nuevo».</news>
 	</extension>
 </addon>
-<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.10" provider-name="ker0n3">
+<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.11" provider-name="ker0n3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
