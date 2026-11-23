@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.ker0n3.flix" version="2.0.31" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix" version="2.0.32" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.4.26"/>
+		<import addon="plugin.video.ker0n3" version="0.4.27"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<!-- <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -30,7 +30,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.31: Solo cambia en el iPad y el iPhone: al vincular PeLis o MDBList ya no intento abrir el navegador, que ahí no se puede; digo en qué web entrar y «Continuar» abre el teclado para pegar la clave. En la tele no cambia nada. Si algo falla o va distinto, dímelo.
+		<news>2.0.32: En Ajustes, en el orden de calidades, el botón del remux tiene ahora tres opciones: No, Primero (delante de la versión normal de su calidad) o Último (detrás, como hasta ahora). Con el remux permitido, «Elegir versión» enseña siempre los remux en castellano, y si AllDebrid aún no tiene uno preparado sale con ⏳. Si algo falla o va distinto, dímelo.
+2.0.31: Solo cambia en el iPad y el iPhone: al vincular PeLis o MDBList ya no intento abrir el navegador, que ahí no se puede; digo en qué web entrar y «Continuar» abre el teclado para pegar la clave. En la tele no cambia nada. Si algo falla o va distinto, dímelo.
 2.0.30: Los iconos de Dolby (Vision, Atmos, Digital, Digital Plus y TrueHD), DTS y HDR10+ salen con su logo oficial. En Ajustes, «Color» pasa a ser «Personalización»: además del color, puedes elegir los iconos blancos o de color. En «Elegir versión» cada idioma lleva su bandera. La rueda de carga se ve nítida, y la carátula enfocada del Inicio ya no tapa el título de la fila. Si algo falla o va distinto, dímelo.
 2.0.29: Nuevo apartado «K-drama» al añadir filas: K-dramas populares, mejor valorados, del último año y películas coreanas. En el Inicio aleatorio viene desmarcado; si te interesa, márcalo en su configuración. Si algo falla o va distinto, dímelo.
 2.0.28: En el móvil, al abrir la ficha de una película ya no debería verse un instante la rueda de carga, y la ficha sale antes. He quitado unas comprobaciones repetidas cada 10 minutos de listas de Trakt que ya no existen. Si algo falla o va distinto, dímelo.
@@ -232,12 +233,12 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.ker0n3.flix.touch" version="2.0.31" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix.touch" version="2.0.32" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.4.26"/>
+		<import addon="plugin.video.ker0n3" version="0.4.27"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -260,7 +261,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.31: En el iPad y el iPhone, al vincular PeLis o MDBList ya no intento abrir el navegador, que ahí no se puede: digo en qué web entrar y «Continuar» abre el teclado para pegar la clave. En Android no cambia nada. Si algo falla o va distinto, dímelo.
+		<news>2.0.32: En Ajustes, en el orden de calidades, el botón del remux tiene ahora tres opciones: No, Primero (delante de la versión normal de su calidad) o Último (detrás, como hasta ahora). Con el remux permitido, «Elegir versión» enseña siempre los remux en castellano, y si AllDebrid aún no tiene uno preparado sale con ⏳. Si algo falla o va distinto, dímelo.
+2.0.31: En el iPad y el iPhone, al vincular PeLis o MDBList ya no intento abrir el navegador, que ahí no se puede: digo en qué web entrar y «Continuar» abre el teclado para pegar la clave. En Android no cambia nada. Si algo falla o va distinto, dímelo.
 2.0.30: Los iconos de Dolby (Vision, Atmos, Digital, Digital Plus y TrueHD), DTS y HDR10+ salen con su logo oficial. En Ajustes, «Color» pasa a ser «Personalización»: además del color, puedes elegir los iconos blancos o de color. En «Elegir versión» cada idioma lleva su bandera. Si algo falla o va distinto, dímelo.
 2.0.29: Nuevo apartado «K-drama» al añadir filas: K-dramas populares, mejor valorados, del último año y películas coreanas. En el Inicio aleatorio viene desmarcado; si te interesa, márcalo en su configuración. Si algo falla o va distinto, dímelo.
 2.0.28: En el móvil, al abrir la ficha de una película ya no debería verse un instante la rueda de carga, y la ficha sale antes. He quitado unas comprobaciones repetidas cada 10 minutos de listas de Trakt que ya no existen. Si algo falla o va distinto, dímelo.
@@ -463,7 +465,7 @@
 1.1.55: en la pantalla de la serie, el menú de un capítulo (mantener OK / pulsación larga) vuelve a ser el del capítulo y marca solo ese capítulo (salía el de la temporada desde la 1.5.23); al pulsar un capítulo empezado sale nuestro aviso «Seguir viendo / Desde el principio», centrado; el mando ya no se queda sin foco al cerrar un menú; «Continuar» señala bien el capítulo a medias y pasa a la temporada siguiente (decía «T1 E7» con 6 capítulos) y con la serie vista entera dice «Ver de nuevo».</news>
 	</extension>
 </addon>
-<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.26" provider-name="ker0n3">
+<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.27" provider-name="ker0n3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
