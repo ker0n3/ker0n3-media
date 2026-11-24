@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.ker0n3.flix" version="2.0.35" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix" version="2.0.36" name="Ker0n3 Media TV" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.4.29"/>
+		<import addon="plugin.video.ker0n3" version="0.4.30"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<!-- <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -30,7 +30,8 @@
 		<summary lang="en_GB">An intuitive TV skin, designed for the remote control.</summary>
 		<description lang="es_ES">Skin intuitiva para la TV: todo a mano con el mando, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive TV skin: everything within reach of the remote, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.35: «Elegir versión» desde «Seguir viendo» ya sigue donde lo dejaste también en lo que quedó a medias en otro aparato (pausas de Trakt), que seguía empezando desde el principio. Si algo falla o va distinto, dímelo.
+		<news>2.0.36: En el buscador, los resultados que tardan en comprobarse van saliendo según se encuentran, en vez de todos juntos al final, y en el móvil una rueda arriba a la derecha avisa de que aún pueden llegar más (desaparece al terminar). Si algo falla o va distinto, dímelo.
+2.0.35: «Elegir versión» desde «Seguir viendo» ya sigue donde lo dejaste también en lo que quedó a medias en otro aparato (pausas de Trakt), que seguía empezando desde el principio. Si algo falla o va distinto, dímelo.
 2.0.34: Arreglado: si la skin se actualizaba con «Elegir versión» abierta, la lista podía quedarse colgada con la rueda girando y sin poder volver atrás. «Elegir versión» desde «Seguir viendo» sigue donde lo dejaste en vez de empezar desde el principio. En la tele, tras actualizarse la skin, «Seguir viendo» vuelve a quedar arriba sin tener que reiniciar. Si algo falla o va distinto, dímelo.
 2.0.33: Además de AllDebrid, ahora se puede reproducir con TorBox o con Real-Debrid: vincúlalos en Ajustes → Cuentas pegando su clave (la pantalla dice dónde sacarla). Se usa la primera cuenta vinculada. Con Real-Debrid, «Elegir versión» enseña las versiones sin comprobar y comprueba la que eliges. En Ajustes, «Reproducir» dice con qué cuenta se reproduce. Si algo falla o va distinto, dímelo.
 2.0.32: En Ajustes, en el orden de calidades, el botón del remux tiene ahora tres opciones: No, Primero (delante de la versión normal de su calidad) o Último (detrás, como hasta ahora). Con el remux permitido, «Elegir versión» enseña siempre los remux en castellano, y si AllDebrid aún no tiene uno preparado sale con ⏳. Si algo falla o va distinto, dímelo.
@@ -236,12 +237,12 @@
 1.4.16: el buscador acepta teclado físico (USB / Bluetooth).</news>
 	</extension>
 </addon>
-<addon id="skin.ker0n3.flix.touch" version="2.0.35" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
+<addon id="skin.ker0n3.flix.touch" version="2.0.36" name="Ker0n3 Media Táctil" provider-name="Ker0n3 Media">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
 		<!-- el addon propio (catálogo, enlaces, base de vistos, cuentas): está en el mismo repositorio (Ker0n3 Media) y
 		     Kodi lo instala al actualizar la skin; la táctil hereda esta línea (tools/build_touch.py) -->
-		<import addon="plugin.video.ker0n3" version="0.4.29"/>
+		<import addon="plugin.video.ker0n3" version="0.4.30"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -264,7 +265,8 @@
 		<summary lang="en_GB">An intuitive skin for phones and tablets, designed for touch.</summary>
 		<description lang="es_ES">Skin intuitiva para móvil y tablet: se maneja con el dedo, búsqueda rápida y navegación sencilla. Se actualiza sola desde el repositorio Ker0n3 Media.</description>
 		<description lang="en_GB">An intuitive skin for phones and tablets: touch friendly, fast search and simple navigation. Updates itself from the Ker0n3 Media repository.</description>
-		<news>2.0.35: «Elegir versión» desde «Seguir viendo» ya sigue donde lo dejaste también en lo que quedó a medias en otro aparato (pausas de Trakt), que seguía empezando desde el principio. Si algo falla o va distinto, dímelo.
+		<news>2.0.36: En el buscador, los resultados que tardan en comprobarse van saliendo según se encuentran, en vez de todos juntos al final, y en el móvil una rueda arriba a la derecha avisa de que aún pueden llegar más (desaparece al terminar). Si algo falla o va distinto, dímelo.
+2.0.35: «Elegir versión» desde «Seguir viendo» ya sigue donde lo dejaste también en lo que quedó a medias en otro aparato (pausas de Trakt), que seguía empezando desde el principio. Si algo falla o va distinto, dímelo.
 2.0.34: Arreglado: si la skin se actualizaba con «Elegir versión» abierta, la lista podía quedarse colgada con la rueda girando y sin poder volver atrás. «Elegir versión» desde «Seguir viendo» sigue donde lo dejaste en vez de empezar desde el principio. En la tele, tras actualizarse la skin, «Seguir viendo» vuelve a quedar arriba sin tener que reiniciar. Si algo falla o va distinto, dímelo.
 2.0.33: Además de AllDebrid, ahora se puede reproducir con TorBox o con Real-Debrid: vincúlalos en Ajustes → Cuentas pegando su clave (la pantalla dice dónde sacarla). Se usa la primera cuenta vinculada. Con Real-Debrid, «Elegir versión» enseña las versiones sin comprobar y comprueba la que eliges. En Ajustes, «Reproducir» dice con qué cuenta se reproduce. Si algo falla o va distinto, dímelo.
 2.0.32: En Ajustes, en el orden de calidades, el botón del remux tiene ahora tres opciones: No, Primero (delante de la versión normal de su calidad) o Último (detrás, como hasta ahora). Con el remux permitido, «Elegir versión» enseña siempre los remux en castellano, y si AllDebrid aún no tiene uno preparado sale con ⏳. Si algo falla o va distinto, dímelo.
@@ -471,7 +473,7 @@
 1.1.55: en la pantalla de la serie, el menú de un capítulo (mantener OK / pulsación larga) vuelve a ser el del capítulo y marca solo ese capítulo (salía el de la temporada desde la 1.5.23); al pulsar un capítulo empezado sale nuestro aviso «Seguir viendo / Desde el principio», centrado; el mando ya no se queda sin foco al cerrar un menú; «Continuar» señala bien el capítulo a medias y pasa a la temporada siguiente (decía «T1 E7» con 6 capítulos) y con la serie vista entera dice «Ver de nuevo».</news>
 	</extension>
 </addon>
-<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.29" provider-name="ker0n3">
+<addon id="plugin.video.ker0n3" name="Ker0n3" version="0.4.30" provider-name="ker0n3">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
