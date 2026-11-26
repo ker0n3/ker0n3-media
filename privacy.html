@@ -27,7 +27,7 @@ a{color:#7fb2ff} li{margin:.3em 0}
 <h2>Optional sign-in with Google</h2>
 <p>The user can optionally sign in with their Google account so that their settings and linked accounts are the same on all their devices. Without signing in, everything works as before and nothing is sent to Google.</p>
 <ul>
-<li><strong>Permission requested</strong>: only <code>drive.appdata</code> (&ldquo;See, create and delete its own configuration data in your Google Drive&rdquo;). This gives access to a hidden folder that only Ker0n3 Media can use. The app cannot see, read or change any other file in the user's Google Drive.</li>
+<li><strong>Permission requested</strong>: only <code>drive.file</code> (&ldquo;See, edit, create and delete only the specific Google Drive files you use with this app&rdquo;). The app creates a folder called <em>Ker0n3 Media</em> in the user's Google Drive and can only access the files it created there. It cannot see, read or change any other file in the user's Google Drive.</li>
 <li><strong>What is saved there</strong>: the skin's settings (menu, home screen, rows and similar preferences) and the access keys of the accounts the user has linked in the app (debrid services, Trakt, PeLis, MDBList). Settings specific to one device, such as network or audio settings, are not saved.</li>
 <li><strong>Where it goes</strong>: directly from the user's device to the user's own Google Drive. It never passes through, and is never stored on, any server run by the author. The author has no access to it.</li>
 <li><strong>Google account data</strong>: the app reads the email address of the signed-in account only to show the user which account is connected. It does not read contacts, files, email or any other Google data.</li>
@@ -50,7 +50,7 @@ a{color:#7fb2ff} li{margin:.3em 0}
 <ul>
 <li>In the app: Settings &rarr; Accounts &rarr; choose the service &rarr; <em>Unlink</em>. This deletes the stored token from the device and the app stops accessing that account.</li>
 <li>The user can also revoke the app at any time from their Trakt account settings (Connected apps) or the equivalent page of the other service.</li>
-<li>Google: in the app, Settings &rarr; Accounts &rarr; Google &rarr; <em>Sign out</em> stops syncing; <em>Delete my data from Google</em> removes everything the app saved in the user's Drive. The user can also revoke access at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>, and delete the app's hidden data from Google Drive &rarr; Settings &rarr; Manage apps.</li>
+<li>Google: in the app, Settings &rarr; Accounts &rarr; Google &rarr; <em>Sign out</em> stops syncing; <em>Delete my data from Google</em> removes everything the app saved in the user's Drive. The user can also revoke access at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>, and delete the <em>Ker0n3 Media</em> folder from their Google Drive.</li>
 <li>Uninstalling the add-on and clearing Kodi's data folder removes the local database and all cached data.</li>
 </ul>
 
